@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Badminton Gear Thai | คู่มือเลือกอุปกรณ์แบดมินตัน",
+  title: "Thai Badminton Equipment News | คู่มือเลือกอุปกรณ์แบดมินตัน",
   description:
-    "คู่มือเลือกไม้แบด รองเท้า ลูกแบด เอ็น และกริป สำหรับมือใหม่ถึงคนเล่นจริง พร้อมลิงก์ดูราคาที่ Shopee",
+    "คู่มือเลือกไม้แบด รองเท้า ลูกแบด เอ็น และกริป สำหรับมือใหม่ถึงคนเล่นจริง รีวิว Youtube จากช่องเพลิน พร้อมช่องทางการสั่งซื้อง่ายๆ ที่ Shopee",
   keywords: [
     "ไม้แบด",
     "อุปกรณ์แบดมินตัน",
     "รองเท้าแบดมินตัน",
     "ลูกแบด",
-    "Shopee Affiliate",
+    "ร้านค้าออนไลน์ใน Shopee ของแท้ 100%",
   ],
   openGraph: {
     title: "Badminton Gear Thai",
