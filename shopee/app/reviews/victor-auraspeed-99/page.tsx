@@ -34,9 +34,9 @@ export default function VictorAuraSpeed99Review() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="/" aria-label="Badminton Gear Thai">
-          <span className="brand-mark">BG</span>
-          <span>Badminton Gear Thai</span>
+        <a className="brand" href="/" aria-label="Thai Badminton Equipment News">
+          <span className="brand-mark">TH</span>
+          <span>Thai Badminton Equipment News</span>
         </a>
         <nav aria-label="เมนูรีวิว">
           <a href="/">หน้าแรก</a>
@@ -58,7 +58,7 @@ export default function VictorAuraSpeed99Review() {
             <div className="review-actions">
               <a
                 className="primary-button"
-                href="https://s.shopee.co.th/2qRQfRVhrR"
+                href="https://shopee.co.th/search?keyword=Victor%20AuraSpeed%2099"
                 target="_blank"
                 rel="noreferrer"
               >
