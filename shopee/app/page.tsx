@@ -78,7 +78,9 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Thai Badminton Equipment News">
-          <span className="brand-mark">TH</span>
+          <span className="brand-mark" aria-hidden="true">
+            <img src="/images/reviews/logo-file.jpg" alt="" />
+          </span>
           <span>Thai Badminton Equipment News</span>
         </a>
         <nav aria-label="เมนูหลัก">
