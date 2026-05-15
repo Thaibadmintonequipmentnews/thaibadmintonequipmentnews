@@ -194,6 +194,7 @@ h3 {
 .section,
 .guide-band,
 .youtube-band,
+.facebook-section,
 .disclosure {
   padding: clamp(56px, 8vw, 112px) clamp(18px, 4vw, 56px);
 }
@@ -307,6 +308,45 @@ h3 {
   margin-bottom: 0;
   color: #c9ded4;
   line-height: 1.72;
+}
+
+.facebook-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+  gap: clamp(24px, 5vw, 64px);
+  align-items: center;
+  background: #fff;
+}
+
+.facebook-copy {
+  max-width: 760px;
+}
+
+.facebook-copy p {
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.72;
+}
+
+.facebook-copy .secondary-button {
+  width: fit-content;
+  margin-top: 18px;
+}
+
+.facebook-frame {
+  overflow: hidden;
+  width: 100%;
+  max-width: 420px;
+  min-height: 560px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f4f7f5;
+  box-shadow: var(--shadow);
+}
+
+.facebook-frame iframe {
+  display: block;
+  width: 100%;
 }
 
 .comparison {
@@ -549,9 +589,14 @@ footer span:first-child {
   .hero,
   .split,
   .youtube-band,
+  .facebook-section,
   .review-hero,
   .two-column {
     grid-template-columns: 1fr;
+  }
+
+  .facebook-frame {
+    max-width: 500px;
   }
 
   .spec-grid {
