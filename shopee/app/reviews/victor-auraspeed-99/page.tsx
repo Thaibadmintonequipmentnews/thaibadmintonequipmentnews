@@ -35,7 +35,9 @@ export default function VictorAuraSpeed99Review() {
     <main>
       <header className="site-header">
         <a className="brand" href="/" aria-label="Thai Badminton Equipment News">
-          <span className="brand-mark">TH</span>
+          <span className="brand-mark" aria-hidden="true">
+            <img src="/images/reviews/logo-file.jpg" alt="" />
+          </span>
           <span>Thai Badminton Equipment News</span>
         </a>
         <nav aria-label="เมนูรีวิว">
@@ -81,12 +83,6 @@ export default function VictorAuraSpeed99Review() {
               เหมาะกับผู้เล่นคู่ที่ชอบเกมบุกเร็ว ลูกดาดแน่น และต้องการไม้ที่คมกว่าไม้สายสปีดทั่วไป
             </p>
           </aside>
-        </section>
-        <section className="review-image-section">
-          <img
-            src="/images/reviews/ARS-997_1000x.webp"
-            alt="Victor AuraSpeed 99"
-          />
         </section>
 
         <section className="review-section">
