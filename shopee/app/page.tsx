@@ -77,14 +77,15 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Badminton Gear Thai">
-          <span className="brand-mark">BG</span>
-          <span>Badminton Gear Thai</span>
+        <a className="brand" href="#top" aria-label="Thai Badminton Equipment News">
+          <span className="brand-mark">TH</span>
+          <span>Thai Badminton Equipment News</span>
         </a>
         <nav aria-label="เมนูหลัก">
           <a href="#categories">หมวดสินค้า</a>
           <a href="#guide">เลือกยังไง</a>
           <a href="#youtube">YouTube</a>
+          <a href="#facebook">Facebook</a>
           <a href="#articles">บทความ</a>
           <a href="#disclosure">Affiliate</a>
         </nav>
@@ -93,10 +94,10 @@ export default function Home() {
       <section id="top" className="hero">
         <div className="hero-copy">
           <p className="eyebrow">คู่มืออุปกรณ์แบดมินตันสำหรับคนไทย</p>
-          <h1>เลือกไม้แบด รองเท้า และอุปกรณ์ให้เข้ากับเกมของคุณ</h1>
+          <h1>Thai Badminton Equipment News</h1>
           <p className="lead">
-            เว็บนี้ออกแบบมาเพื่อรีวิว เปรียบเทียบ และคัดอุปกรณ์แบดมินตันแบบอ่านง่าย
-            พร้อมปุ่มดูราคาที่ Shopee สำหรับต่อยอดเป็นเว็บ Affiliate ระยะยาว
+            อัปเดตอุปกรณ์แบดมินตันรุ่นใหม่ รีวิวผ่านบทความและวิดีโอ
+            พร้อมลิงก์ Shopee Affiliate เป็นทางเลือกให้คนอ่านเช็กราคาและตัดสินใจก่อนซื้อ
           </p>
           <div className="hero-actions">
             <a className="primary-button" href="#categories">
@@ -197,6 +198,37 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="facebook" className="facebook-section">
+        <div className="facebook-copy">
+          <p className="eyebrow">Latest updates</p>
+          <h2>ติดตามอัปเดตจากเพจ Thai Badminton Equipment News</h2>
+          <p>
+            เพจ Facebook จะใช้เป็นพื้นที่อัปเดตข่าวสั้น รูปอุปกรณ์ใหม่ โพสต์รีวิวเร็ว
+            และพาผู้อ่านกลับมาอ่านบทความฉบับเต็มบนเว็บไซต์
+          </p>
+          <a
+            className="secondary-button"
+            href="https://www.facebook.com/ThaiBadmintonNews/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            เปิดเพจ Facebook
+          </a>
+        </div>
+        <div className="facebook-frame" aria-label="Facebook Page Thai Badminton Equipment News">
+          <iframe
+            title="Thai Badminton Equipment News Facebook Page"
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FThaiBadmintonNews%2F&tabs=timeline&width=420&height=560&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true"
+            width="420"
+            height="560"
+            style={{ border: "none", overflow: "hidden" }}
+            scrolling="no"
+            frameBorder="0"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          />
+        </div>
+      </section>
+
       <section id="articles" className="section split">
         <div>
           <p className="eyebrow">SEO starter</p>
@@ -230,8 +262,8 @@ export default function Home() {
       </section>
 
       <footer>
-        <span>Badminton Gear Thai</span>
-        <span>สร้างเพื่อรีวิวและเปรียบเทียบอุปกรณ์แบดมินตัน</span>
+        <span>Thai Badminton Equipment News</span>
+        <span>ข่าว รีวิว และอัปเดตอุปกรณ์แบดมินตัน</span>
       </footer>
     </main>
   );
