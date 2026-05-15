@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "รีวิว Victor AuraSpeed 99 | Badminton Gear Thai",
+  title: "รีวิว Victor AuraSpeed 99 | Thai Badminton Equipment News",
   description:
     "รีวิว Victor AuraSpeed 99 จากผู้ใช้จริง ไม้แบดสายบุก เฟรมตัดอากาศ ก้านแข็ง ตอบสนองไว พร้อมข้อดี ข้อเสีย และสเปกที่ควรรู้",
 };
