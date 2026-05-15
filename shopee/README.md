@@ -1,6 +1,5 @@
-# Badminton Gear Thai
-
-เว็บรีวิวและคู่มือเลือกอุปกรณ์แบดมินตันภาษาไทย สำหรับต่อยอดเป็นเว็บ Shopee Affiliate
+# Thai Badminton Equipment News
+เว็บรีวิวและคู่มือเลือกอุปกรณ์แบดมินตันภาษาไทยจากเพจ Thai Badminton Equipment News
 
 ## สิ่งที่มีในเวอร์ชันแรก
 
