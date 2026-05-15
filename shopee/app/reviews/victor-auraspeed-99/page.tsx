@@ -82,6 +82,12 @@ export default function VictorAuraSpeed99Review() {
             </p>
           </aside>
         </section>
+        <section className="review-image-section">
+          <img
+            src="/images/reviews/ARS-997_1000x.webp"
+            alt="Victor AuraSpeed 99"
+          />
+        </section>
 
         <section className="review-section">
           <h2>ภาพรวมความรู้สึกหลังลองตี</h2>
