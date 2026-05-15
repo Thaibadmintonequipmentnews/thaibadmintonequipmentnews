@@ -73,6 +73,29 @@ const articles = [
   },
 ];
 
+const youtubeVideos = [
+  {
+    id: "jlYBieluI3Q",
+    title: "วิดีโอล่าสุดจาก plearn",
+  },
+  {
+    id: "ykKNA5sysas",
+    title: "พรีวิวอุปกรณ์จาก plearn",
+  },
+  {
+    id: "NnWP1A3qYfY",
+    title: "อัปเดตแบดมินตันจาก plearn",
+  },
+  {
+    id: "zGP1AZMR98g",
+    title: "รีวิวและพรีวิวจาก plearn",
+  },
+  {
+    id: "i9uMGjElWgY",
+    title: "คลิปใหม่จากช่อง plearn",
+  },
+];
+
 export default function Home() {
   return (
     <main>
@@ -170,8 +193,13 @@ export default function Home() {
 
       <section id="youtube" className="youtube-band">
         <div className="youtube-copy">
-          <p className="eyebrow">Video reviews</p>
-          <h2>ดูรีวิวประกอบจากช่อง Plearn Plearn</h2>
+          <div className="plearn-heading">
+            <img src="/images/reviews/plearnlogo2.png" alt="plearn" />
+            <div>
+              <p className="eyebrow">Video reviews</p>
+              <h2>plearn</h2>
+            </div>
+          </div>
           <p>
             นอกจากบทความบนเว็บ เรายังสามารถต่อยอดรีวิวอุปกรณ์แบดมินตันเป็นวิดีโอได้
             เหมาะกับการโชว์ฟีลจับไม้ เสียงหน้าไม้ การลองรองเท้า และเปรียบเทียบอุปกรณ์จริงก่อนกดซื้อ
@@ -197,6 +225,27 @@ export default function Home() {
             สูตรหน้ารีวิวที่ควรใช้: สรุปเหมาะกับใคร, จุดเด่น, ข้อควรรู้,
             คลิปจาก YouTube, ตารางสเปก, แล้วปิดด้วยปุ่มดูราคาที่ Shopee
           </p>
+        </div>
+        <div className="video-rail" aria-label="วิดีโอล่าสุดจากช่อง plearn">
+          {youtubeVideos.map((video) => (
+            <a
+              className="video-card"
+              href={`https://www.youtube.com/watch?v=${video.id}`}
+              target="_blank"
+              rel="noreferrer"
+              key={video.id}
+            >
+              <span className="video-thumb">
+                <img
+                  src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
+                  alt={video.title}
+                />
+                <span className="play-badge">Play</span>
+              </span>
+              <strong>{video.title}</strong>
+              <small>เปิดดูบน YouTube</small>
+            </a>
+          ))}
         </div>
       </section>
 
