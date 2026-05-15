@@ -67,6 +67,7 @@ export default function Home() {
         <nav aria-label="เมนูหลัก">
           <a href="#categories">หมวดสินค้า</a>
           <a href="#guide">เลือกยังไง</a>
+          <a href="#youtube">YouTube</a>
           <a href="#articles">บทความ</a>
           <a href="#disclosure">Affiliate</a>
         </nav>
@@ -144,6 +145,38 @@ export default function Home() {
               <span>{pick.budget}</span>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section id="youtube" className="youtube-band">
+        <div className="youtube-copy">
+          <p className="eyebrow">Video reviews</p>
+          <h2>ดูรีวิวประกอบจากช่อง Plearn Plearn</h2>
+          <p>
+            นอกจากบทความบนเว็บ เรายังสามารถต่อยอดรีวิวอุปกรณ์แบดมินตันเป็นวิดีโอได้
+            เหมาะกับการโชว์ฟีลจับไม้ เสียงหน้าไม้ การลองรองเท้า และเปรียบเทียบอุปกรณ์จริงก่อนกดซื้อ
+          </p>
+          <div className="youtube-actions">
+            <a
+              className="primary-button"
+              href="https://www.youtube.com/@plearnplearn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              ไปที่ช่อง YouTube
+            </a>
+            <a className="secondary-button" href="#articles">
+              ดูไอเดียบทความรีวิว
+            </a>
+          </div>
+        </div>
+        <div className="review-panel">
+          <span>Review workflow</span>
+          <h3>บทความ + คลิป + ลิงก์ Shopee</h3>
+          <p>
+            สูตรหน้ารีวิวที่ควรใช้: สรุปเหมาะกับใคร, จุดเด่น, ข้อควรรู้,
+            คลิปจาก YouTube, ตารางสเปก, แล้วปิดด้วยปุ่มดูราคาที่ Shopee
+          </p>
         </div>
       </section>
 
