@@ -58,7 +58,7 @@ export default function VictorAuraSpeed99Review() {
             <div className="review-actions">
               <a
                 className="primary-button"
-                href="https://shopee.co.th/search?keyword=Victor%20AuraSpeed%2099"
+                href="https://s.shopee.co.th/2qRQfRVhrR"
                 target="_blank"
                 rel="noreferrer"
               >
