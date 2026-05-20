@@ -52,6 +52,11 @@ const picks = [
 
 const articles = [
   {
+    title: "Mizuno Acrospeed 001 SEA Limited ต่างจาก Acrospeed 0 อย่างไร",
+    desc: "เจาะที่มาไม้ Made in Japan สำหรับ Southeast Asia คาแรกเตอร์สปีดที่หัวหนัก และกลุ่มผู้เล่นที่เหมาะ",
+    href: "/reviews/mizuno-acrospeed-001-sea-limited",
+  },
+  {
     title: "รีวิว Victor AuraSpeed 99 จากผู้ใช้จริง",
     desc: "ไม้สายบุกเฟรมตัดอากาศ ก้านแข็ง ตอบสนองไว และเป็นมิตรกับผู้เล่นกว่า ARS-HS+",
     href: "/reviews/victor-auraspeed-99",
