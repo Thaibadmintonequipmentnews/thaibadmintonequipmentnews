@@ -42,7 +42,7 @@ export default function MizunoAcrospeed001Review() {
           className="review-hero mizuno-hero"
           style={{
             backgroundImage:
-              "linear-gradient(90deg, rgba(6, 20, 15, 0.9), rgba(6, 20, 15, 0.62) 42%, rgba(6, 20, 15, 0.16)), url('/images/reviews/headline.png')",
+              "linear-gradient(90deg, rgba(6, 20, 15, 0.42), rgba(6, 20, 15, 0.18)), url('/images/reviews/headline.png')",
           }}
         >
           <div>
