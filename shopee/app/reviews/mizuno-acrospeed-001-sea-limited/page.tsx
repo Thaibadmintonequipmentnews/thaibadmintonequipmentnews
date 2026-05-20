@@ -38,13 +38,14 @@ export default function MizunoAcrospeed001Review() {
       </header>
 
       <article className="review-article">
-        <section
-          className="review-hero mizuno-hero"
-          style={{
-            backgroundImage:
-              "linear-gradient(90deg, rgba(6, 20, 15, 0.42), rgba(6, 20, 15, 0.18)), url('/images/reviews/headline.png')",
-          }}
-        >
+        <section className="headline-image">
+          <img
+            src="/images/reviews/headline.png"
+            alt="Mizuno Acrospeed 001 SEA Limited ต่างจาก Acrospeed 0 อย่างไร"
+          />
+        </section>
+
+        <section className="review-hero review-intro">
           <div>
             <p className="eyebrow">Equipment news</p>
             <h1>Mizuno Acrospeed 001 SEA Limited ต่างจาก Acrospeed 0 อย่างไร</h1>
