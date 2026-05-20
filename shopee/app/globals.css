@@ -599,16 +599,13 @@ h3 {
   overflow: hidden;
   color: #f7fbf8;
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #0d1712;
 }
 
 .mizuno-hero::before {
-  position: absolute;
-  inset: 0;
-  content: "";
-  background:
-    linear-gradient(180deg, rgba(6, 20, 15, 0.16), rgba(6, 20, 15, 0.42)),
-    linear-gradient(90deg, rgba(6, 20, 15, 0.78), rgba(6, 20, 15, 0.16) 66%);
+  content: none;
 }
 
 .mizuno-hero > * {
@@ -617,12 +614,12 @@ h3 {
 }
 
 .mizuno-hero .eyebrow {
-  color: var(--lime);
+  color: #fff;
 }
 
 .mizuno-hero .lead {
-  color: #dcebe4;
-  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.34);
+  color: #fff;
+  text-shadow: none;
 }
 
 .mizuno-hero .score-card {
