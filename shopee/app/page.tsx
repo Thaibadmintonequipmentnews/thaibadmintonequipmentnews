@@ -52,6 +52,11 @@ const picks = [
 
 const articles = [
   {
+    title: "18 ปี เมย์ รัชนก อินทนนท์ กับเส้นทาง Thailand Open",
+    desc: "บทความนักกีฬา: เส้นทางยืนระยะของเมย์ในรายการไทยแลนด์ โอเพ่น ตั้งแต่ดาวรุ่ง แชมป์เก่า จนถึงรุ่นพี่ในเวทีใหญ่",
+    href: "/athletes/ratchanok-thailand-open-18-years",
+  },
+  {
     title: "Mizuno Acrospeed 001 SEA Limited ต่างจาก Acrospeed 0 อย่างไร",
     desc: "เจาะที่มาไม้ Made in Japan สำหรับ Southeast Asia คาแรกเตอร์สปีดที่หัวหนัก และกลุ่มผู้เล่นที่เหมาะ",
     href: "/reviews/mizuno-acrospeed-001-sea-limited",
