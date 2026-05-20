@@ -570,6 +570,40 @@ h3 {
   line-height: 1.7;
 }
 
+.review-image-section {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 34px clamp(18px, 4vw, 56px) 0;
+}
+
+.review-image-section img {
+  width: 100%;
+  max-height: 760px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.image-gallery img {
+  aspect-ratio: 4 / 5;
+}
+
+.mizuno-hero {
+  background:
+    linear-gradient(120deg, rgba(39, 110, 241, 0.16), transparent 48%),
+    linear-gradient(180deg, #fbfcf8, #edf4f0);
+}
+
+.article-points {
+  padding-left: 22px;
+}
+
 .review-section {
   max-width: 1040px;
   margin: 0 auto;
@@ -706,6 +740,10 @@ footer span:first-child {
 
   .spec-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .image-gallery {
+    grid-template-columns: 1fr;
   }
 
   .hero {
