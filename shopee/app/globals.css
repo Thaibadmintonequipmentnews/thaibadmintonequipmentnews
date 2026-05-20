@@ -595,9 +595,38 @@ h3 {
 }
 
 .mizuno-hero {
+  position: relative;
+  overflow: hidden;
+  color: #f7fbf8;
+  background-position: center;
+  background-size: cover;
+}
+
+.mizuno-hero::before {
+  position: absolute;
+  inset: 0;
+  content: "";
   background:
-    linear-gradient(120deg, rgba(39, 110, 241, 0.16), transparent 48%),
-    linear-gradient(180deg, #fbfcf8, #edf4f0);
+    linear-gradient(180deg, rgba(6, 20, 15, 0.16), rgba(6, 20, 15, 0.42)),
+    linear-gradient(90deg, rgba(6, 20, 15, 0.78), rgba(6, 20, 15, 0.16) 66%);
+}
+
+.mizuno-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.mizuno-hero .eyebrow {
+  color: var(--lime);
+}
+
+.mizuno-hero .lead {
+  color: #dcebe4;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.34);
+}
+
+.mizuno-hero .score-card {
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .article-points {
