@@ -524,6 +524,16 @@ h3 {
   background: #fbfcf8;
 }
 
+.headline-image {
+  background: #f7fbf8;
+}
+
+.headline-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .review-hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 390px);
@@ -533,6 +543,11 @@ h3 {
   background:
     linear-gradient(120deg, rgba(244, 123, 50, 0.12), transparent 46%),
     linear-gradient(180deg, #fbfcf8, #edf4f0);
+}
+
+.review-intro h1,
+.review-intro .lead {
+  color: var(--ink);
 }
 
 .review-actions {
@@ -592,38 +607,6 @@ h3 {
 
 .image-gallery img {
   aspect-ratio: 4 / 5;
-}
-
-.mizuno-hero {
-  position: relative;
-  overflow: hidden;
-  color: #f7fbf8;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #0d1712;
-}
-
-.mizuno-hero::before {
-  content: none;
-}
-
-.mizuno-hero > * {
-  position: relative;
-  z-index: 1;
-}
-
-.mizuno-hero .eyebrow {
-  color: #fff;
-}
-
-.mizuno-hero .lead {
-  color: #fff;
-  text-shadow: none;
-}
-
-.mizuno-hero .score-card {
-  background: rgba(255, 255, 255, 0.9);
 }
 
 .article-points {
