@@ -73,23 +73,43 @@ export default function Home() {
         </nav>
       </header>
 
-      <section id="top" className="news-home magazine-home">
-        <div className="magazine-topline">
-          <span>Equipment Magazine</span>
-          <span>Reviews / Athlete Stories / Buyer Guides</span>
-          <span>Updated for Thai badminton players</span>
+      <section id="top" className="sport-home">
+        <div className="promo-strip">
+          <span>Thai Badminton Equipment News</span>
+          <span>Reviews / Video / Buyer Guides</span>
+          <span>Updated for Thai players</span>
         </div>
 
-        <div className="news-home-heading magazine-heading">
-          <p className="eyebrow">Thai Badminton Equipment News</p>
-          <h1>ข่าวอุปกรณ์แบดมินตัน รีวิวจริง อ่านง่าย ก่อนตัดสินใจซื้อ</h1>
-          <p>
-            หน้าแรกถูกจัดใหม่ให้เหมือนนิตยสารอุปกรณ์: เปิดด้วยบทความหลัก,
-            ตามด้วยข่าวรองที่ควรอ่าน และต่อด้วยวิดีโอจาก plearn
-          </p>
-        </div>
+        <a className="sport-hero" href={headline.href}>
+          <img src={headline.image} alt={headline.title} />
+          <div className="sport-hero-copy">
+            <span>{headline.label}</span>
+            <h1>{headline.title}</h1>
+            <p>{headline.desc}</p>
+            <strong>อ่านบทความ</strong>
+          </div>
+        </a>
 
-        <div className="headline-layout magazine-layout">
+        <section id="articles" className="hot-section" aria-label="บทความแนะนำ">
+          <div className="hot-heading">
+            <h2>WHAT&apos;S HOT</h2>
+            <a href="/beginner-guides">ดูคู่มือทั้งหมด</a>
+          </div>
+          <div className="hot-grid">
+            {secondaryArticles.slice(0, 3).map((article) => (
+              <a className="hot-card" href={article.href} key={article.title}>
+                <img src={article.image} alt={article.title} />
+                <div>
+                  <span>{article.label}</span>
+                  <h3>{article.title}</h3>
+                  <p>{article.desc}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+
+        <div className="legacy-headline" hidden>
           <a className="headline-card" href={headline.href}>
             <img src={headline.image} alt={headline.title} />
             <div>
@@ -98,8 +118,7 @@ export default function Home() {
               <p>{headline.desc}</p>
             </div>
           </a>
-
-          <div id="articles" className="secondary-news-grid">
+          <div className="secondary-news-grid">
             {secondaryArticles.slice(0, 3).map((article) => (
               <a className="secondary-news-card" href={article.href} key={article.title}>
                 <img src={article.image} alt={article.title} />
