@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { beginnerGuides, customLinkHref } from "../data";
+import { beginnerGuides } from "../data";
 
 type PageProps = {
   params: Promise<{
@@ -66,7 +66,7 @@ export default async function BeginnerGuideArticlePage({ params }: PageProps) {
             <p>Sub ID: {guide.subId}</p>
             <a
               className="shopee-button"
-              href={customLinkHref(guide.shopeeTarget, guide.subId)}
+              href={guide.shopeeTarget}
               target="_blank"
               rel="noreferrer"
             >
@@ -92,7 +92,7 @@ export default async function BeginnerGuideArticlePage({ params }: PageProps) {
           </a>
           <a
             className="shopee-button"
-            href={customLinkHref(guide.shopeeTarget, guide.subId)}
+            href={guide.shopeeTarget}
             target="_blank"
             rel="noreferrer"
           >
