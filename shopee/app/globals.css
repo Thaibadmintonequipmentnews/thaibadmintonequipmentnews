@@ -837,6 +837,98 @@ h3 {
   margin-top: 22px;
 }
 
+.beginner-page {
+  background: #fbfcf8;
+}
+
+.beginner-hero {
+  padding: clamp(46px, 7vw, 92px) clamp(18px, 4vw, 56px) clamp(28px, 4vw, 46px);
+  background:
+    linear-gradient(120deg, rgba(15, 111, 92, 0.12), transparent 46%),
+    linear-gradient(180deg, #fbfcf8, #eef5ec);
+}
+
+.beginner-hero h1 {
+  max-width: 1120px;
+}
+
+.beginner-index {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  padding: 0 clamp(18px, 4vw, 56px) clamp(44px, 6vw, 72px);
+}
+
+.beginner-index a {
+  display: grid;
+  gap: 10px;
+  min-height: 190px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(23, 34, 29, 0.08);
+}
+
+.beginner-index a:hover strong {
+  color: var(--court);
+}
+
+.beginner-index span {
+  color: var(--court);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.beginner-index strong {
+  font-size: 20px;
+  line-height: 1.28;
+}
+
+.beginner-index small {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.beginner-articles {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 clamp(18px, 4vw, 56px) clamp(64px, 8vw, 112px);
+}
+
+.beginner-article {
+  scroll-margin-top: 92px;
+  padding: clamp(34px, 6vw, 72px) 0;
+  border-top: 1px solid var(--line);
+}
+
+.beginner-article h2 {
+  max-width: 860px;
+}
+
+.beginner-article p {
+  color: var(--ink);
+  font-size: clamp(18px, 2vw, 21px);
+  line-height: 1.95;
+}
+
+.beginner-article p + p {
+  margin-top: 20px;
+}
+
+.beginner-summary {
+  color: var(--court) !important;
+  font-weight: 800;
+}
+
+.back-to-index {
+  display: inline-flex;
+  margin-top: 10px;
+  color: var(--court);
+  font-weight: 900;
+}
+
 .disclosure {
   max-width: 980px;
   margin: 0 auto;
@@ -890,6 +982,10 @@ footer span:first-child {
   }
 
   .spec-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .beginner-index {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -954,6 +1050,10 @@ footer span:first-child {
   }
 
   .spec-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .beginner-index {
     grid-template-columns: 1fr;
   }
 
