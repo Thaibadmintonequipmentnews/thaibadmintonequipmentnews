@@ -1,6 +1,7 @@
 const articles = [
   {
     title: "Mizuno Acrospeed 001 SEA Limited ต่างจาก Acrospeed 0 อย่างไร",
+    heroTitle: "Mizuno Acrospeed 001 SEA Limited",
     desc: "เจาะที่มาไม้ Made in Japan สำหรับ Southeast Asia คาแรกเตอร์สปีดที่หัวหนัก และกลุ่มผู้เล่นที่เหมาะ",
     href: "/reviews/mizuno-acrospeed-001-sea-limited",
     image: "/images/reviews/headline.png",
@@ -84,7 +85,7 @@ export default function Home() {
           <img src={headline.image} alt={headline.title} />
           <div className="sport-hero-copy">
             <span>{headline.label}</span>
-            <h1>{headline.title}</h1>
+            <h1>{headline.heroTitle ?? headline.title}</h1>
             <p>{headline.desc}</p>
             <strong>อ่านบทความ</strong>
           </div>
