@@ -1,15 +1,15 @@
 :root {
-  --ink: #17221d;
-  --muted: #607065;
-  --line: #d8e1da;
-  --paper: #f6f3ec;
+  --ink: #111614;
+  --muted: #5b6761;
+  --line: #dfe6e2;
+  --paper: #f7f9f7;
   --panel: #ffffff;
-  --court: #0f6f5c;
-  --lime: #c6f24a;
-  --orange: #f47b32;
-  --blue: #276ef1;
-  --graphite: #111816;
-  --cream: #fffaf0;
+  --court: #00856f;
+  --lime: #d7ff3f;
+  --orange: #ee4d2d;
+  --blue: #2f6fed;
+  --graphite: #101412;
+  --cream: #ffffff;
   --shadow: 0 18px 55px rgba(17, 24, 22, 0.14);
 }
 
@@ -25,7 +25,7 @@ body {
   margin: 0;
   color: var(--ink);
   background:
-    linear-gradient(180deg, rgba(15, 111, 92, 0.04), transparent 360px),
+    linear-gradient(180deg, rgba(0, 133, 111, 0.05), transparent 340px),
     var(--paper);
   font-family: Arial, "Noto Sans Thai", "Helvetica Neue", sans-serif;
 }
@@ -49,8 +49,8 @@ img {
   justify-content: space-between;
   gap: 24px;
   padding: 16px clamp(18px, 4vw, 56px);
-  border-bottom: 1px solid rgba(17, 24, 22, 0.12);
-  background: rgba(246, 243, 236, 0.94);
+  border-bottom: 1px solid rgba(17, 22, 20, 0.1);
+  background: rgba(247, 249, 247, 0.94);
   backdrop-filter: blur(12px);
 }
 
@@ -98,8 +98,8 @@ nav a:hover {
   min-height: calc(100vh - 72px);
   padding: clamp(28px, 5vw, 72px) clamp(18px, 4vw, 56px);
   background:
-    linear-gradient(120deg, rgba(15, 111, 92, 0.14), transparent 45%),
-    linear-gradient(180deg, #fbfcf8, #eef5ec);
+    linear-gradient(120deg, rgba(0, 133, 111, 0.12), transparent 45%),
+    linear-gradient(180deg, #ffffff, #eef5f2);
 }
 
 .hero-copy {
@@ -260,8 +260,8 @@ h3 {
 
 .news-home {
   background:
-    linear-gradient(135deg, rgba(15, 111, 92, 0.12), transparent 38%),
-    linear-gradient(180deg, #fbfaf4, #f0f3ec);
+    radial-gradient(circle at 0 20%, rgba(0, 133, 111, 0.12), transparent 28%),
+    linear-gradient(180deg, #ffffff, #f2f6f4);
 }
 
 .magazine-home {
@@ -276,8 +276,8 @@ h3 {
   margin-bottom: clamp(18px, 4vw, 34px);
   padding: 11px 0;
   border-top: 2px solid var(--graphite);
-  border-bottom: 1px solid rgba(17, 24, 22, 0.24);
-  color: #4c5f56;
+  border-bottom: 1px solid rgba(17, 22, 20, 0.18);
+  color: #51615b;
   font-size: 13px;
   font-weight: 900;
   text-transform: uppercase;
@@ -338,10 +338,10 @@ h3 {
 .secondary-news-card {
   display: block;
   overflow: hidden;
-  border: 1px solid rgba(17, 24, 22, 0.16);
+  border: 1px solid rgba(17, 22, 20, 0.12);
   border-radius: 8px;
   background: var(--panel);
-  box-shadow: 0 14px 38px rgba(17, 24, 22, 0.09);
+  box-shadow: 0 14px 38px rgba(17, 22, 20, 0.08);
   transition:
     transform 180ms ease,
     box-shadow 180ms ease,
@@ -351,15 +351,15 @@ h3 {
 .headline-card:hover,
 .secondary-news-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(15, 111, 92, 0.45);
-  box-shadow: 0 22px 55px rgba(17, 24, 22, 0.15);
+  border-color: rgba(0, 133, 111, 0.42);
+  box-shadow: 0 22px 55px rgba(17, 22, 20, 0.13);
 }
 
 .headline-card img {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: contain;
-  background: #e8ece4;
+  background: #edf3f0;
 }
 
 .headline-card div {
@@ -402,7 +402,7 @@ h3 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background: #eef5ec;
+  background: #edf3f0;
 }
 
 .secondary-news-card div {
@@ -426,8 +426,8 @@ h3 {
   align-items: center;
   color: #f7fbf8;
   background:
-    radial-gradient(circle at 14% 18%, rgba(238, 77, 45, 0.22), transparent 28%),
-    linear-gradient(120deg, rgba(198, 242, 74, 0.16), transparent 48%),
+    radial-gradient(circle at 14% 18%, rgba(238, 77, 45, 0.2), transparent 28%),
+    linear-gradient(120deg, rgba(215, 255, 63, 0.12), transparent 48%),
     var(--graphite);
 }
 
@@ -685,11 +685,11 @@ h3 {
 }
 
 .review-article {
-  background: #fbfcf8;
+  background: #f7f9f7;
 }
 
 .headline-image {
-  background: #f7fbf8;
+  background: #f7f9f7;
 }
 
 .headline-image img {
@@ -705,8 +705,8 @@ h3 {
   align-items: end;
   padding: clamp(46px, 7vw, 96px) clamp(18px, 4vw, 56px);
   background:
-    linear-gradient(120deg, rgba(244, 123, 50, 0.12), transparent 46%),
-    linear-gradient(180deg, #fbfcf8, #edf4f0);
+    linear-gradient(120deg, rgba(238, 77, 45, 0.1), transparent 46%),
+    linear-gradient(180deg, #ffffff, #eef5f2);
 }
 
 .review-intro h1,
@@ -861,7 +861,7 @@ h3 {
 }
 
 .news-article {
-  background: #fbfcf8;
+  background: #f7f9f7;
 }
 
 .news-header {
@@ -910,14 +910,14 @@ h3 {
 }
 
 .beginner-page {
-  background: #fbfcf8;
+  background: #f7f9f7;
 }
 
 .beginner-hero {
   padding: clamp(46px, 7vw, 92px) clamp(18px, 4vw, 56px) clamp(28px, 4vw, 46px);
   background:
-    linear-gradient(120deg, rgba(15, 111, 92, 0.12), transparent 46%),
-    linear-gradient(180deg, #fbfcf8, #eef5ec);
+    linear-gradient(120deg, rgba(0, 133, 111, 0.1), transparent 46%),
+    linear-gradient(180deg, #ffffff, #eef5f2);
 }
 
 .beginner-hero h1 {
@@ -964,7 +964,7 @@ h3 {
 }
 
 .beginner-detail-page {
-  background: #fbfcf8;
+  background: #f7f9f7;
 }
 
 .beginner-detail-hero {
@@ -974,8 +974,8 @@ h3 {
   align-items: end;
   padding: clamp(44px, 7vw, 86px) clamp(18px, 4vw, 56px) clamp(24px, 4vw, 42px);
   background:
-    linear-gradient(120deg, rgba(15, 111, 92, 0.12), transparent 46%),
-    linear-gradient(180deg, #fbfcf8, #eef5ec);
+    linear-gradient(120deg, rgba(0, 133, 111, 0.1), transparent 46%),
+    linear-gradient(180deg, #ffffff, #eef5f2);
 }
 
 .product-card {
@@ -1078,7 +1078,7 @@ footer {
   gap: 18px;
   padding: 28px clamp(18px, 4vw, 56px);
   color: #d9efe5;
-  background: #10231b;
+  background: var(--graphite);
 }
 
 footer span:first-child {
