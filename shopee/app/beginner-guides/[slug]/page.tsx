@@ -49,7 +49,7 @@ export default async function BeginnerGuideArticlePage({ params }: PageProps) {
         <nav aria-label="เมนูบทความมือใหม่">
           <a href="/">หน้าแรก</a>
           <a href="/beginner-guides">คู่มือมือใหม่</a>
-          <a href="#affiliate">ดูสินค้า</a>
+          <a href="#product">ดูสินค้า</a>
         </nav>
       </header>
 
@@ -60,13 +60,11 @@ export default async function BeginnerGuideArticlePage({ params }: PageProps) {
             <h1>{guide.title}</h1>
             <p className="lead">{guide.summary}</p>
           </div>
-          <aside id="affiliate" className="affiliate-card">
-            <span>Shopee affiliate</span>
+          <aside id="product" className="product-card">
             <h2>{guide.product}</h2>
-            <p>Sub ID: {guide.subId}</p>
             <a
               className="shopee-button"
-              href={guide.shopeeTarget}
+              href={guide.shopeeLink}
               target="_blank"
               rel="noreferrer"
             >
@@ -92,7 +90,7 @@ export default async function BeginnerGuideArticlePage({ params }: PageProps) {
           </a>
           <a
             className="shopee-button"
-            href={guide.shopeeTarget}
+            href={guide.shopeeLink}
             target="_blank"
             rel="noreferrer"
           >
