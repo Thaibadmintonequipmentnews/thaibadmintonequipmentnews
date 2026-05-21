@@ -1,17 +1,17 @@
 const articles = [
   {
-    title: "18 ปี เมย์ รัชนก อินทนนท์ กับเส้นทาง Thailand Open",
-    desc: "บทความนักกีฬา: เส้นทางยืนระยะของเมย์ในรายการไทยแลนด์ โอเพ่น ตั้งแต่ดาวรุ่ง แชมป์เก่า จนถึงรุ่นพี่ในเวทีใหญ่",
-    href: "/athletes/ratchanok-thailand-open-18-years",
-    image: "/images/reviews/mayy.jpg",
-    label: "Athlete story",
-  },
-  {
     title: "Mizuno Acrospeed 001 SEA Limited ต่างจาก Acrospeed 0 อย่างไร",
     desc: "เจาะที่มาไม้ Made in Japan สำหรับ Southeast Asia คาแรกเตอร์สปีดที่หัวหนัก และกลุ่มผู้เล่นที่เหมาะ",
     href: "/reviews/mizuno-acrospeed-001-sea-limited",
     image: "/images/reviews/headline.png",
     label: "Equipment news",
+  },
+  {
+    title: "18 ปี เมย์ รัชนก อินทนนท์ กับเส้นทาง Thailand Open",
+    desc: "บทความนักกีฬา: เส้นทางยืนระยะของเมย์ในรายการไทยแลนด์ โอเพ่น ตั้งแต่ดาวรุ่ง แชมป์เก่า จนถึงรุ่นพี่ในเวทีใหญ่",
+    href: "/athletes/ratchanok-thailand-open-18-years",
+    image: "/images/reviews/mayy.jpg",
+    label: "Athlete story",
   },
   {
     title: "รีวิว Victor AuraSpeed 99 จากผู้ใช้จริง",
@@ -24,7 +24,7 @@ const articles = [
     title: "คู่มืออุปกรณ์แบดมินตันสำหรับมือใหม่ 15 บทความ",
     desc: "เริ่มตั้งแต่ไม้แรก น้ำหนัก 3U/4U เอ็น กริป รองเท้า ถุงเท้า ซัพพอร์ต กระเป๋า และลูกแบด",
     href: "/beginner-guides",
-    image: "/images/reviews/badminton101.jpg",
+    image: "/images/reviews/as1.jpg",
     label: "Beginner guide",
   },
 ];
@@ -73,12 +73,23 @@ export default function Home() {
         </nav>
       </header>
 
-      <section id="top" className="news-home">
-        <div className="news-home-heading">
-          <p className="eyebrow">Thai Badminton Equipment News</p>
-          <h1>Headline</h1>
+      <section id="top" className="news-home magazine-home">
+        <div className="magazine-topline">
+          <span>Equipment Magazine</span>
+          <span>Reviews / Athlete Stories / Buyer Guides</span>
+          <span>Updated for Thai badminton players</span>
         </div>
-        <div className="headline-layout">
+
+        <div className="news-home-heading magazine-heading">
+          <p className="eyebrow">Thai Badminton Equipment News</p>
+          <h1>ข่าวอุปกรณ์แบดมินตัน รีวิวจริง อ่านง่าย ก่อนตัดสินใจซื้อ</h1>
+          <p>
+            หน้าแรกถูกจัดใหม่ให้เหมือนนิตยสารอุปกรณ์: เปิดด้วยบทความหลัก,
+            ตามด้วยข่าวรองที่ควรอ่าน และต่อด้วยวิดีโอจาก plearn
+          </p>
+        </div>
+
+        <div className="headline-layout magazine-layout">
           <a className="headline-card" href={headline.href}>
             <img src={headline.image} alt={headline.title} />
             <div>
@@ -87,6 +98,7 @@ export default function Home() {
               <p>{headline.desc}</p>
             </div>
           </a>
+
           <div id="articles" className="secondary-news-grid">
             {secondaryArticles.slice(0, 3).map((article) => (
               <a className="secondary-news-card" href={article.href} key={article.title}>
