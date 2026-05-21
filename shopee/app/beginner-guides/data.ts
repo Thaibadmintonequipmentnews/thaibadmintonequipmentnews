@@ -9,9 +9,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/12887090/pexels-photo-12887090.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "ไม้แบดสำหรับมือใหม่ 4U ก้านกลาง",
-    subId: "beginner-first-racket",
+    subId: "beginnerfirstracket",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%81%E0%B8%9A%E0%B8%94%204U%20%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88",
+    shopeeLink: "https://s.shopee.co.th/1BJLU2Xuo9",
     paragraphs: [
       "ไม้แบดไม้แรกของหลายคนมักเริ่มต้นจากคำถามง่าย ๆ ว่า “นักกีฬาทีมชาติใช้ไม้รุ่นไหน” แล้วก็เดินเข้าร้านไปซื้อรุ่นนั้นเลยครับ สำหรับมือใหม่แล้วเราไม่ว่ากันครับเพราะว่าตอนผมเริ่มต้นก็ใช้วิธีนั้นเหมือนกันเพราะมันง่ายที่สุดเราเห็นนักกีฬาใช้สีสวยดีแล้วก็คิดว่าสิ่งที่นักกีฬาเลือกใช้นั้นมันคือสิ่งที่ดีที่สุดแล้ว",
       "ฟังดูเท่ดีนะครับ เพราะในใจเราคิดว่า ถ้าไม้ระดับแชมป์โลกใช้ได้ เราก็น่าจะตีดีขึ้นเหมือนกัน แต่ความจริงในสนามมันไม่ได้ง่ายแบบนั้นครับ ไม้ที่นักกีฬาระดับสูงใช้ ส่วนใหญ่ถูกออกแบบมาให้ตอบสนองกับร่างกาย เทคนิค และแรงสวิงที่ผ่านการฝึกมาหลายปี บางรุ่นหัวหนักมาก บางรุ่นก้านแข็งมาก บางรุ่นต้องใช้ข้อมือและแรงส่งจากลำตัวค่อนข้างเยอะ ถ้ามือใหม่หยิบมาใช้ตั้งแต่วันแรก สิ่งที่ได้อาจไม่ใช่พลังตบ แต่เป็นอาการปวดไหล่ ปวดข้อมือ หรือรู้สึกว่าไม้ดีแต่เราตีไม่ออกครับ",
@@ -32,9 +33,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/8007075/pexels-photo-8007075.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "ไม้แบด 4U",
-    subId: "racket-weight-4u",
+    subId: "racketweight4u",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%81%E0%B8%9A%E0%B8%94%204U",
+    shopeeLink: "https://s.shopee.co.th/gN4t7Zop4",
     paragraphs: [
       "เวลามือใหม่เริ่มดูไม้แบด สิ่งหนึ่งที่เจอบ่อยมากคือรหัสน้ำหนักอย่าง 3U, 4U, 5U แล้วหลายคนก็เริ่มงงทันทีครับ ตัวเลขพวกนี้ไม่ได้เกี่ยวกับความยาวไม้ ไม่ได้เกี่ยวกับความแพง แต่เป็นการบอก “ช่วงน้ำหนัก” ของไม้แบดครับ",
       "หลักจำง่าย ๆ คือ เลข U ยิ่งมาก ไม้ยิ่งเบาครับ 3U จะหนักกว่า 4U และ 4U จะหนักกว่า 5U ครับ",
@@ -56,9 +58,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/12887090/pexels-photo-12887090.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "ไม้แบด Yonex Victor Li-Ning Mizuno",
-    subId: "racket-brands",
+    subId: "racketbrands",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%81%E0%B8%9A%E0%B8%94%20Yonex%20Victor%20Li-Ning%20Mizuno",
+    shopeeLink: "https://s.shopee.co.th/qgV5QZBU7",
     paragraphs: [
       "คำถามว่า “ใช้ไม้แบดแบรนด์ไหนดี” เป็นคำถามที่ไม่มีคำตอบเดียวครับ เพราะแต่ละแบรนด์มีบุคลิกของตัวเอง เหมือนรองเท้าแต่ละยี่ห้อที่ใส่แล้วให้ความรู้สึกไม่เหมือนกันครับ",
       "แบรนด์ยอดนิยมอย่าง Yonex จุดเด่นคือความครบเครื่องครับ มีไม้ให้เลือกตั้งแต่มือใหม่จนถึงระดับนักกีฬา รุ่นต่าง ๆ ถูกแบ่งคาแรกเตอร์ค่อนข้างชัด เช่น สายบุก สายสปีด หรือสายสมดุล ข้อดีคือหาข้อมูลง่าย ถือแล้วดูโปรทันที เพราะใคร ๆ ก็ใช้ แต่ข้อเสียคือรุ่นยอดนิยมมักราคาสูงมาก ของหายาก และมีของปลอมในตลาดค่อนข้างเยอะ ต้องซื้อจากร้านที่ไว้ใจได้ครับ",
@@ -79,9 +82,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/6878125/pexels-photo-6878125.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "เอ็นแบดมินตัน",
-    subId: "badminton-string",
+    subId: "badmintonstring",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%94%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%95%E0%B8%B1%E0%B8%99",
+    shopeeLink: "https://s.shopee.co.th/9fHtbf1YYq",
     paragraphs: [
       "เอ็นแบดเป็นอุปกรณ์ชิ้นเล็กที่ส่งผลกับฟีลการตีมากกว่าที่หลายคนคิดครับ ไม้เดียวกัน ถ้าขึ้นเอ็นคนละรุ่น คนละปอนด์ ความรู้สึกอาจเปลี่ยนเหมือนคนละไม้เลยครับ",
       "เวลาเลือกเอ็น สิ่งแรกที่ควรรู้คือเอ็นแต่ละรุ่นไม่ได้ทำมาเพื่อทุกคนครับ บางรุ่นเด้งดีมาก บางรุ่นเสียงดัง บางรุ่นคุมลูกดี บางรุ่นทนมาก บางรุ่นตีมันแต่ขาดไว ถ้าเราไม่รู้ว่าต้องการอะไร เราอาจเลือกตามเพื่อนแล้วไม่ถูกใจครับ",
@@ -103,9 +107,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/6878125/pexels-photo-6878125.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "บริการขึ้นเอ็นแบด 22-24 ปอนด์",
-    subId: "string-tension-22-24",
+    subId: "stringtension2224",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%94",
+    shopeeLink: "https://s.shopee.co.th/9pbJny0vDt",
     paragraphs: [
       "มือใหม่หลายคนเห็นนักกีฬาขึ้นเอ็น 30 ปอนด์แล้วรู้สึกว่าเท่มากครับ พอไปขึ้นตามบ้างก็คิดว่าลูกจะพุ่งแรง เสียงจะดัง และดูโปรขึ้น แต่พอลงสนามจริงกลับตีไม่ออก ลูกไม่ไปหลัง แขนล้า และบางคนเจ็บข้อมือเลยครับ",
       "ความตึงเอ็นไม่ได้มีไว้โชว์ครับ มันต้องเหมาะกับแรงสวิงและทักษะของคนตีครับ ปอนด์สูงทำให้หน้าไม้แข็งขึ้น ลูกจะออกจากหน้าไม้เร็วขึ้น แต่ข้อเสียคือพื้นที่ให้อภัยน้อยลง ถ้าตีไม่โดนกลางหน้าไม้ ลูกจะไม่ค่อยพุ่ง และแรงสะท้านจะส่งกลับมาที่มือมากขึ้นครับ",
@@ -126,9 +131,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/6878021/pexels-photo-6878021.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "กริปแบด Yonex AC102EX Excella EG900",
-    subId: "badminton-grip",
+    subId: "badmintongrip",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=%E0%B8%81%E0%B8%A3%E0%B8%B4%E0%B8%9B%E0%B9%81%E0%B8%9A%E0%B8%94%20Yonex%20AC102EX%20Excella%20EG900",
+    shopeeLink: "https://s.shopee.co.th/2Voj4Yr8mM",
     paragraphs: [
       "กริปพันด้ามเป็นอุปกรณ์ที่หลายคนมองข้ามมากครับ ทั้งที่จริง ๆ แล้วมันคือจุดเดียวที่มือเราสัมผัสกับไม้ตลอดเวลา ถ้ากริปไม่ดี จับไม่ถนัด ลื่น หรือหนาเกินไป ต่อให้ไม้แพงแค่ไหนก็อาจตีไม่สนุกครับ",
       "กริปหลัก ๆ ที่คนเล่นแบดใช้กันบ่อยคือกริปยางกับกริปผ้าครับ กริปยางจะให้ความหนึบ จับแล้วรู้สึกติดมือ เหมาะกับคนที่เหงื่อมือไม่เยอะมาก หรือคนที่ชอบฟีลจับแน่น ๆ เวลาสวิงครับ ข้อดีคือดูแลง่าย เปลี่ยนง่าย และให้ความมั่นใจดีครับ",
@@ -149,9 +155,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/6878125/pexels-photo-6878125.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "Cushion Wrap โฟมรองกริป",
-    subId: "cushion-wrap",
+    subId: "cushionwrap",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=Cushion%20Wrap%20%E0%B9%82%E0%B8%9F%E0%B8%A1%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B4%E0%B8%9B",
+    shopeeLink: "https://s.shopee.co.th/2LVIsFrm7L",
     paragraphs: [
       "Cushion Wrap หรือโฟมรองกริป เป็นอุปกรณ์ที่หลายคนไม่รู้จัก แต่ผมมองว่ามันเป็นของเล็ก ๆ ที่มีประโยชน์มากครับ โดยเฉพาะสำหรับมือใหม่ที่อยากปรับด้ามไม้ให้จับสบายขึ้นและลดแรงสะท้านเวลาตีครับ",
       "ปกติไม้แบดจะมีกริปเดิมจากโรงงานติดมาให้ แต่หลายคนพอซื้อไม้มาแล้วก็พันกริปทับไปเลยครับ วิธีนี้ทำได้ แต่บางครั้งด้ามจะหนาเกินไป หรือยังให้ฟีลแข็งอยู่ โดยเฉพาะเวลาตีแป๊ก ลูกโดนไม่เต็มหน้าไม้ แรงสะท้านจะส่งมาที่มือค่อนข้างชัดครับ",
@@ -172,9 +179,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/2202685/pexels-photo-2202685.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "รองเท้าแบดมินตัน",
-    subId: "badminton-shoes",
+    subId: "badmintonshoes",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%9A%E0%B8%94%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%95%E0%B8%B1%E0%B8%99",
+    shopeeLink: "https://s.shopee.co.th/2qRZTAps6S",
     paragraphs: [
       "ข้อนี้ผมอยากขีดเส้นใต้หนา ๆ เลยครับ ถ้าจะเล่นแบดมินตันจริงจังขึ้น อย่าใส่รองเท้าวิ่งมาตีแบดครับ",
       "รองเท้าวิ่งไม่ได้ผิดนะครับ แต่มันถูกออกแบบมาเพื่อ “วิ่งไปข้างหน้า” เป็นหลัก พื้นรองเท้ามักสูง นุ่ม และช่วยรับแรงกระแทกตอนก้าวไปข้างหน้าได้ดี แต่แบดมินตันไม่ใช่กีฬาที่เราเคลื่อนที่แค่ตรงไปข้างหน้าอย่างเดียวครับ เราต้องพุ่งหน้า ถอยหลัง สไลด์ซ้าย สไลด์ขวา เบรกกะทันหัน และเปลี่ยนทิศทางตลอดเวลา",
@@ -194,9 +202,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/8007157/pexels-photo-8007157.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "ถุงเท้าแบดมินตัน",
-    subId: "badminton-socks",
+    subId: "badmintonsocks",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=%E0%B8%96%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%9A%E0%B8%94%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%95%E0%B8%B1%E0%B8%99",
+    shopeeLink: "https://s.shopee.co.th/2g89GrqVRR",
     paragraphs: [
       "หลายคนยอมซื้อไม้ดี รองเท้าดี แต่กลับหยิบถุงเท้าทำงานบาง ๆ หรือถุงเท้านักเรียนมาใส่ตีแบดครับ ฟังดูประหยัดดี แต่พอลงสนามจริงอาจได้ของแถมเป็นแผลพุพอง นิ้วช้ำ หรือฝ่าเท้าลื่นในรองเท้าครับ",
       "แบดมินตันเป็นกีฬาที่เท้าทำงานหนักมากครับ เราเบรกแรง ออกตัวไว ถอยหลังเร็ว และมีจังหวะที่นิ้วเท้าดันกับหัวรองเท้าตลอดเวลา ถ้าถุงเท้าบางเกินไป แรงเสียดสีระหว่างเท้ากับรองเท้าจะสูงขึ้น ทำให้เกิดแผลพองได้ง่ายครับ",
@@ -217,9 +226,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/7438732/pexels-photo-7438732.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "แผ่นรองเท้า Insole กีฬา",
-    subId: "sports-insole",
+    subId: "sportsinsole",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=%E0%B9%81%E0%B8%9C%E0%B9%88%E0%B8%99%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%20Insole%20%E0%B8%81%E0%B8%B5%E0%B8%AC%E0%B8%B2",
+    shopeeLink: "https://s.shopee.co.th/3B4PrmobQY",
     paragraphs: [
       "บางคนซื้อรองเท้าแบดมินตันดี ๆ มาแล้ว แต่ยังรู้สึกปวดฝ่าเท้า ปวดส้นเท้า หรือเล่นนาน ๆ แล้วเข่าล้าเร็ว ปัญหาอาจไม่ได้อยู่ที่รองเท้าทั้งหมดครับ แต่อาจอยู่ที่แผ่นรองเท้าด้านใน หรือ Insole ครับ",
       "รองเท้าแบดส่วนใหญ่มีแผ่นรองพื้นฐานมาให้ แต่แผ่นรองเดิมบางรุ่นอาจไม่ได้ซัพพอร์ตอุ้งเท้าของเรามากพอ โดยเฉพาะคนที่เท้าแบน อุ้งเท้าสูง หรือมีปัญหารองช้ำครับ เวลาเล่นแบด น้ำหนักตัวเราจะกระแทกลงเท้าซ้ำ ๆ ในจังหวะกระโดด เบรก และเปลี่ยนทิศทาง ถ้าฝ่าเท้าไม่ได้รับการซัพพอร์ตที่ดี แรงสะเทือนจะส่งต่อไปถึงข้อเท้า เข่า และหลังได้ครับ",
@@ -240,9 +250,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/8007075/pexels-photo-8007075.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "Zamst McDavid ankle knee support",
-    subId: "joint-support",
+    subId: "jointsupport",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=Zamst%20McDavid%20ankle%20knee%20support",
+    shopeeLink: "https://s.shopee.co.th/2BBsfxkr9O",
     paragraphs: [
       "แบดมินตันเป็นกีฬาที่ใช้เข่าและข้อเท้าหนักมากครับ โดยเฉพาะคนที่เล่นเกมคู่เร็ว ๆ หรือชอบพุ่งรับลูกตลอดเวลา ข้อต่อเหล่านี้ต้องรับทั้งแรงเบรก แรงบิด และแรงกระแทกซ้ำ ๆ ถ้ากล้ามเนื้อยังไม่แข็งแรง หรือเคยบาดเจ็บมาก่อน อุปกรณ์ซัพพอร์ตจึงมีประโยชน์มากครับ",
       "ที่รัดข้อเท้าหรือ Ankle Brace เหมาะกับคนที่เคยข้อเท้าพลิก หรือรู้สึกว่าข้อเท้าไม่มั่นคงครับ รุ่นที่มีแกนพยุงด้านข้างจะช่วยจำกัดการบิดของข้อเท้า ลดโอกาสพลิกซ้ำ โดยเฉพาะจังหวะลงน้ำหนักผิดมุมครับ แบรนด์อย่าง Zamst หรือ McDavid มีรุ่นที่นักกีฬาใช้กันเยอะ เพราะพยุงได้ดีและออกแบบมาสำหรับการเคลื่อนไหวจริงครับ",
@@ -263,9 +274,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/2202685/pexels-photo-2202685.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "Elbow Support สายรัดข้อศอก",
-    subId: "elbow-support",
+    subId: "elbowsupport",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=Elbow%20Support%20%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%A3%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A8%E0%B8%AD%E0%B8%81",
+    shopeeLink: "https://s.shopee.co.th/20sSTelUUN",
     paragraphs: [
       "หลายคนเรียกอาการเจ็บข้อศอกด้านนอกว่า Tennis Elbow แต่ในสนามแบดมินตันก็เจอบ่อยมากครับ โดยเฉพาะมือใหม่ที่ตีผิดจังหวะ ใช้แขนเยอะเกินไป หรือเกร็งข้อมือเวลาตีครับ",
       "อาการนี้มักเริ่มจากเจ็บตื้อ ๆ บริเวณข้อศอกด้านนอก บางคนเจ็บตอนจับไม้ บางคนเจ็บตอนบิดผ้า เปิดขวด หรือยกของครับ ถ้าปล่อยไว้นาน อาจรบกวนการใช้ชีวิตประจำวันได้เลยครับ",
@@ -286,9 +298,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/2202685/pexels-photo-2202685.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "ปลอกรัดน่องกีฬา Calf Sleeves",
-    subId: "calf-sleeves",
+    subId: "calfsleeves",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%81%E0%B8%A3%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B8%87%20Calf%20Sleeves",
+    shopeeLink: "https://s.shopee.co.th/1qZ2HLm7pM",
     paragraphs: [
       "ปลอกรัดน่องหรือ Calf Sleeves เป็นอุปกรณ์ที่หลายคนเห็นแล้วสงสัยครับ บางคนคิดว่าใส่แล้วดูโปร บางคนคิดว่าเป็นแฟชั่น แต่จริง ๆ แล้วมันมีประโยชน์มากกว่าความเท่ครับ",
       "หลักการของปลอกรัดน่องคือการ Compress หรือการบีบกระชับกล้ามเนื้อครับ แรงรัดระดับพอดีจะช่วยให้กล้ามเนื้อน่องสั่นน้อยลงเวลาวิ่ง กระโดด หรือเบรกแรง ๆ ซึ่งอาจช่วยให้รู้สึกล้าน้อยลงในระหว่างเล่นครับ",
@@ -309,9 +322,10 @@ export const beginnerGuides = [
       "https://images.pexels.com/photos/13116204/pexels-photo-13116204.jpeg?auto=compress&cs=tinysrgb&w=1400",
     imageCredit: "Pexels",
     product: "กระเป๋าแบดมินตัน",
-    subId: "badminton-bag",
+    subId: "badmintonbag",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B9%81%E0%B8%9A%E0%B8%94%E0%B8%A1%E0%B8%B4%E0%B8%99%E0%B8%95%E0%B8%B1%E0%B8%99",
+    shopeeLink: "https://s.shopee.co.th/1gFc52mlAL",
     paragraphs: [
       "พอเริ่มเล่นแบดจริงจังขึ้น กระเป๋าแบดจะไม่ใช่แค่ที่ใส่ไม้กับรองเท้าอีกต่อไปครับ แต่มันจะกลายเป็นเหมือนกล่องเอาตัวรอดประจำสนามครับ ของบางอย่างเราอาจไม่ได้ใช้ทุกวัน แต่วันที่ต้องใช้แล้วไม่มี จะรู้สึกทันทีว่า “รู้งี้พกมาแต่แรกก็ดี” ครับ",
       "อย่างแรกคือไม้สำรองครับ ถ้าเล่นบ่อย ควรมีไม้สำรองอย่างน้อยหนึ่งไม้ เพราะเอ็นสามารถขาดได้ทุกเมื่อ โดยเฉพาะจังหวะตบแรงหรือตีโดนไม่เต็มหน้าไม้ครับ ถ้ามีไม้เดียวแล้วเอ็นขาดกลางเกม ความสนุกจบเลยครับ",
@@ -336,6 +350,7 @@ export const beginnerGuides = [
     subId: "shuttlecock",
     shopeeTarget:
       "https://shopee.co.th/search?keyword=%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%94%20%E0%B8%82%E0%B8%99%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%94%20%E0%B8%82%E0%B8%99%E0%B8%AB%E0%B9%88%E0%B8%B2%E0%B8%99%20%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81",
+    shopeeLink: "https://s.shopee.co.th/1VwBsjnOVK",
     paragraphs: [
       "ลูกแบดเป็นอุปกรณ์ที่หลายคนมองว่าอะไรก็ได้ ขอแค่ตีข้ามเน็ตก็พอครับ แต่ความจริงลูกแบดมีผลกับเกมมากครับ ลูกบางแบบพุ่งเกินไป ลูกบางแบบช้าเกินไป ลูกบางแบบตีไม่กี่ครั้งก็เสียทรง ถ้าเลือกไม่เหมาะ ต่อให้ไม้ดี เอ็นดี รองเท้าดี เกมก็ยังไม่สนุกครับ",
       "ลูกแบดหลัก ๆ มีสองประเภทคือ ลูกขนเป็ดหรือขนห่าน และลูกพลาสติกครับ ลูกขนธรรมชาติจะให้ฟีลการตีที่เป็นธรรมชาติกว่า คุมลูกดี เสียงดี และเป็นมาตรฐานของการซ้อมจริงจังหรือแข่งขันครับ ข้อเสียคือราคาสูงกว่าและพังง่ายกว่า โดยเฉพาะถ้ามือใหม่ยังตีโดนขน โดนก้าน หรือฟันลูกบ่อยครับ",
