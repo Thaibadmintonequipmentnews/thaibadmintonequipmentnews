@@ -25,7 +25,7 @@ const articles = [
     title: "คู่มืออุปกรณ์แบดมินตันสำหรับมือใหม่ 15 บทความ",
     desc: "เริ่มตั้งแต่ไม้แรก น้ำหนัก 3U/4U เอ็น กริป รองเท้า ถุงเท้า ซัพพอร์ต กระเป๋า และลูกแบด",
     href: "/beginner-guides",
-    image: "/images/reviews/as1.jpg",
+    image: "/images/reviews/badminton101.jpg",
     label: "Beginner guide",
   },
 ];
