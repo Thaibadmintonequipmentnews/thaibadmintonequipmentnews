@@ -346,7 +346,3 @@ export const beginnerGuides = [
     ],
   },
 ];
-
-export function customLinkHref(target: string, subId: string) {
-  return `https://affiliate.shopee.co.th/offer/custom_link?url=${encodeURIComponent(target)}&sub_id=${encodeURIComponent(subId)}`;
-}
