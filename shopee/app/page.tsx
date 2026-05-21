@@ -1,3 +1,5 @@
+import { peeratchaiImage } from "./athletes/peeratchai-thailand-open-2026-smash/peeratchaiImage";
+
 const articles = [
   {
     title: "Mizuno Acrospeed 001 SEA Limited ต่างจาก Acrospeed 0 อย่างไร",
@@ -6,6 +8,13 @@ const articles = [
     href: "/reviews/mizuno-acrospeed-001-sea-limited",
     image: "/images/reviews/headline.png",
     label: "Equipment news",
+  },
+  {
+    title: "\"พี\" พีรัชชัย สุขพันธ์ ตบหนักที่สุดในไทยที่ Thailand Open 2026",
+    desc: "พีติดอันดับความเร็วลูกตบชายคู่ถึงสองอันดับ 456.3 km/h และ 449 km/h พร้อมประเด็นไม้สปีดที่ใช้เป็นก็ตบหนักได้",
+    href: "/athletes/peeratchai-thailand-open-2026-smash",
+    image: peeratchaiImage,
+    label: "Athlete gear",
   },
   {
     title: "18 ปี เมย์ รัชนก อินทนนท์ กับเส้นทาง Thailand Open",
@@ -25,7 +34,7 @@ const articles = [
     title: "คู่มืออุปกรณ์แบดมินตันสำหรับมือใหม่ 15 บทความ",
     desc: "เริ่มตั้งแต่ไม้แรก น้ำหนัก 3U/4U เอ็น กริป รองเท้า ถุงเท้า ซัพพอร์ต กระเป๋า และลูกแบด",
     href: "/beginner-guides",
-    image: "/images/reviews/badminton101.jpg",
+    image: "/images/reviews/as1.jpg",
     label: "Beginner guide",
   },
 ];
