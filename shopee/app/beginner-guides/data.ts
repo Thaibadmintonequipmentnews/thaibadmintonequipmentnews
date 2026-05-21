@@ -6,8 +6,8 @@ export const beginnerGuides = [
     summary:
       "ไม้แรกที่ดีคือไม้ที่ทำให้ตีง่ายขึ้น เจ็บน้อยลง และอยากกลับมาลงสนามอีกครั้งในวันถัดไป",
     image:
-      "https://source.unsplash.com/1400x900/?badminton,racket",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/12887090/pexels-photo-12887090.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "ไม้แบดสำหรับมือใหม่ 4U ก้านกลาง",
     subId: "beginner-first-racket",
     shopeeTarget:
@@ -29,8 +29,8 @@ export const beginnerGuides = [
     summary:
       "เลข U ยิ่งมาก ไม้ยิ่งเบา 4U มักเป็นจุดเริ่มต้นที่ปลอดภัยที่สุดสำหรับมือใหม่ถึงระดับกลาง",
     image:
-      "https://source.unsplash.com/1400x900/?badminton,court",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/8007075/pexels-photo-8007075.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "ไม้แบด 4U",
     subId: "racket-weight-4u",
     shopeeTarget:
@@ -53,8 +53,8 @@ export const beginnerGuides = [
     summary:
       "แบรนด์เป็นแค่จุดเริ่มต้น สิ่งที่ต้องดูจริงคือ น้ำหนัก ก้าน สมดุล และความรู้สึกตอนจับ",
     image:
-      "https://source.unsplash.com/1400x900/?badminton,rackets",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/12887090/pexels-photo-12887090.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "ไม้แบด Yonex Victor Li-Ning Mizuno",
     subId: "racket-brands",
     shopeeTarget:
@@ -76,8 +76,8 @@ export const beginnerGuides = [
     summary:
       "เอ็นเปลี่ยนฟีลไม้ได้ชัดมาก มือใหม่ควรเริ่มจากเอ็นที่เด้ง ทน และราคาไม่โหด",
     image:
-      "https://source.unsplash.com/1400x900/?badminton,string",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/6878125/pexels-photo-6878125.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "เอ็นแบดมินตัน",
     subId: "badminton-string",
     shopeeTarget:
@@ -100,8 +100,8 @@ export const beginnerGuides = [
     summary:
       "อย่าเพิ่งรีบขึ้นเอ็นให้ตึง ให้รีบขึ้นฝีมือก่อน มือใหม่ส่วนใหญ่เริ่มที่ 22-24 ปอนด์กำลังดี",
     image:
-      "https://source.unsplash.com/1400x900/?badminton,stringing",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/6878125/pexels-photo-6878125.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "บริการขึ้นเอ็นแบด 22-24 ปอนด์",
     subId: "string-tension-22-24",
     shopeeTarget:
@@ -123,8 +123,8 @@ export const beginnerGuides = [
     summary:
       "กริปคือจุดเดียวที่มือสัมผัสไม้ตลอดเวลา เปลี่ยนนิดเดียว ฟีลไม้เปลี่ยนได้ชัดมาก",
     image:
-      "https://source.unsplash.com/1400x900/?badminton,grip",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/6878021/pexels-photo-6878021.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "กริปแบด Yonex AC102EX Excella EG900",
     subId: "badminton-grip",
     shopeeTarget:
@@ -146,8 +146,8 @@ export const beginnerGuides = [
     summary:
       "ของเล็กที่ช่วยให้ด้ามนุ่มขึ้น ลดแรงสะท้าน และปรับไม้ให้เข้ามือมากกว่าเดิม",
     image:
-      "https://source.unsplash.com/1400x900/?badminton,handle",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/6878125/pexels-photo-6878125.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "Cushion Wrap โฟมรองกริป",
     subId: "cushion-wrap",
     shopeeTarget:
@@ -169,8 +169,8 @@ export const beginnerGuides = [
     summary:
       "ถ้าจะเล่นแบดจริงจังขึ้น รองเท้าแบดควรมาก่อนไม้แพง เพราะมันช่วยให้ไม่เจ็บจนต้องหยุดเล่น",
     image:
-      "https://source.unsplash.com/1400x900/?badminton,shoes",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/2202685/pexels-photo-2202685.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "รองเท้าแบดมินตัน",
     subId: "badminton-shoes",
     shopeeTarget:
@@ -191,8 +191,8 @@ export const beginnerGuides = [
     summary:
       "ถุงเท้าดีช่วยลดแผลพอง ลดเท้าลื่นในรองเท้า และทำให้เล่นได้นานขึ้น",
     image:
-      "https://source.unsplash.com/1400x900/?sports,socks",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/8007157/pexels-photo-8007157.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "ถุงเท้าแบดมินตัน",
     subId: "badminton-socks",
     shopeeTarget:
@@ -214,8 +214,8 @@ export const beginnerGuides = [
     summary:
       "แผ่นรองเท้าที่ดีช่วยซัพพอร์ตอุ้งเท้า กระจายน้ำหนัก และทำให้ยืนในสนามได้นานขึ้น",
     image:
-      "https://source.unsplash.com/1400x900/?shoe,insole",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/7438732/pexels-photo-7438732.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "แผ่นรองเท้า Insole กีฬา",
     subId: "sports-insole",
     shopeeTarget:
@@ -237,8 +237,8 @@ export const beginnerGuides = [
     summary:
       "อุปกรณ์ซัพพอร์ตช่วยเพิ่มความมั่นใจ แต่ร่างกายที่แข็งแรงยังเป็นซัพพอร์ตที่ดีที่สุด",
     image:
-      "https://source.unsplash.com/1400x900/?sports,brace",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/8007075/pexels-photo-8007075.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "Zamst McDavid ankle knee support",
     subId: "joint-support",
     shopeeTarget:
@@ -260,8 +260,8 @@ export const beginnerGuides = [
     summary:
       "สายรัดข้อศอกช่วยลดแรงบางส่วนได้ แต่การแก้เทคนิคและไม่ขึ้นเอ็นตึงเกินคือหัวใจสำคัญ",
     image:
-      "https://source.unsplash.com/1400x900/?elbow,support",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/2202685/pexels-photo-2202685.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "Elbow Support สายรัดข้อศอก",
     subId: "elbow-support",
     shopeeTarget:
@@ -283,8 +283,8 @@ export const beginnerGuides = [
     summary:
       "เหมาะกับคนที่เล่นนาน เล่นหนัก น่องล้าง่าย หรือเคยเป็นตะคริวบ่อย",
     image:
-      "https://source.unsplash.com/1400x900/?calf,sleeves,sport",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/2202685/pexels-photo-2202685.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "ปลอกรัดน่องกีฬา Calf Sleeves",
     subId: "calf-sleeves",
     shopeeTarget:
@@ -306,8 +306,8 @@ export const beginnerGuides = [
     summary:
       "กระเป๋าแบดที่ดีไม่ต้องใหญ่ที่สุด แต่ควรหยิบง่าย เป็นระเบียบ และมีของจำเป็นครบ",
     image:
-      "https://source.unsplash.com/1400x900/?badminton,bag",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/13116204/pexels-photo-13116204.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "กระเป๋าแบดมินตัน",
     subId: "badminton-bag",
     shopeeTarget:
@@ -330,8 +330,8 @@ export const beginnerGuides = [
     summary:
       "ลูกแบดที่เหมาะกับสนามช่วยให้จังหวะถูกต้อง เล่นสนุก และไม่ต้องปรับท่าตีผิดเพื่อชดเชยลูก",
     image:
-      "https://source.unsplash.com/1400x900/?shuttlecock,badminton",
-    imageCredit: "Unsplash",
+      "https://images.pexels.com/photos/7438726/pexels-photo-7438726.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    imageCredit: "Pexels",
     product: "ลูกแบด ขนเป็ด ขนห่าน ลูกพลาสติก",
     subId: "shuttlecock",
     shopeeTarget:
