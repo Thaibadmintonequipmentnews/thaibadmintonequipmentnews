@@ -175,17 +175,17 @@ const seriesCopy: Record<LiningRacquet["series"], string> = {
 const seriesMeta: Record<LiningRacquet["series"], { label: string; logo: string; logoAlt: string }> = {
   Attack: {
     label: "ATTACK / ไม้สายบุก",
-    logo: "/images/brands/axforce.jpg",
+    logo: "/images/brands/axforce.svg",
     logoAlt: "Li-Ning Axforce series",
   },
   Speed: {
     label: "SPEED / ไม้สายความเร็ว",
-    logo: "/images/brands/bladex.jpg",
+    logo: "/images/brands/bladex.svg",
     logoAlt: "Li-Ning BladeX series",
   },
   Control: {
     label: "CONTROL / ไม้สายคุม",
-    logo: "/images/brands/halbertec.jpg",
+    logo: "/images/brands/halbertec.svg",
     logoAlt: "Li-Ning Halbertec series",
   },
 };
