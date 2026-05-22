@@ -68,8 +68,8 @@ const liNingRacquets: LiningRacquet[] = [
     series: "Speed",
     family: "BladeX",
     image:
-      "https://strapiproduction-16636.kxcdn.com/uploads/1_d213922d68/1_d213922d68.jpg?quality=85&width=1080",
-    sourceUrl: "https://in.lining.studio/product/bladex-900-4u",
+      "https://in.lining.studio/cdn/shop/files/1_d213922d68.jpg?v=1749899726&width=650",
+    sourceUrl: "https://in.lining.studio/products/bladex-900-4u",
     thaiPrice: "รออัปเดตราคาไทย",
     shopeeUrl: "#",
   },
