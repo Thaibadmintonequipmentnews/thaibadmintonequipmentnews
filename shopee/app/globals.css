@@ -145,6 +145,17 @@ nav a:hover {
   object-fit: contain;
 }
 
+.brand-menu-wordmark {
+  min-height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+  font-size: 24px;
+  font-weight: 950;
+  letter-spacing: 0;
+}
+
 .brand-menu-card span {
   font-size: 13px;
   line-height: 1.3;
@@ -1388,6 +1399,14 @@ footer span:first-child {
   line-height: 1.65;
 }
 
+.brand-history-wordmark {
+  color: #111;
+  font-size: clamp(30px, 4vw, 54px);
+  font-weight: 950;
+  line-height: 0.95;
+  letter-spacing: 0;
+}
+
 .racquet-index {
   display: grid;
   gap: clamp(54px, 8vw, 96px);
@@ -1429,6 +1448,20 @@ footer span:first-child {
   object-fit: contain;
   object-position: left center;
   filter: brightness(0);
+}
+
+.series-wordmark {
+  min-height: auto;
+  overflow: visible;
+}
+
+.series-wordmark span {
+  color: #050505;
+  font-size: clamp(52px, 8vw, 118px);
+  font-weight: 950;
+  line-height: 0.92;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .racquet-series-heading p {
