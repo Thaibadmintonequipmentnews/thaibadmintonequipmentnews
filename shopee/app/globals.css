@@ -1451,12 +1451,12 @@ footer span:first-child {
 }
 
 .lining-series-logo-frame {
-  width: min(520px, 100%);
-  min-height: 118px;
+  width: min(540px, 100%);
+  min-height: 90px;
 }
 
 .lining-series-logo-frame img {
-  max-height: 156px;
+  max-height: 112px;
   filter: none;
 }
 
