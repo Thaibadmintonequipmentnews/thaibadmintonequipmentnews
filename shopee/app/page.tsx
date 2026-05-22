@@ -85,6 +85,10 @@ export default function Home() {
                 <img src={yonexLogo} alt="Yonex" />
                 <span>ไม้แบดมินตัน Yonex</span>
               </a>
+              <a className="brand-menu-card" href="/racquets/li-ning">
+                <strong className="brand-menu-wordmark">LI-NING</strong>
+                <span>ไม้แบดมินตัน Li-Ning</span>
+              </a>
             </div>
           </div>
           <a href="#top">Headline</a>
