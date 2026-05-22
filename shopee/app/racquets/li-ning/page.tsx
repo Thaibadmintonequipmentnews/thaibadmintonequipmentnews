@@ -10,6 +10,7 @@ type LiningRacquet = {
 
 const yonexLogo =
   "https://www.yonex.com/static/version1778512191/frontend/Yonex/base/en_US/images/Yonex_Logo.svg";
+const liNingLogo = "/images/reviews/Li-Ning_logo_red.svg";
 
 const liNingRacquets: LiningRacquet[] = [
   {
@@ -26,8 +27,7 @@ const liNingRacquets: LiningRacquet[] = [
     name: "Axforce 100 II",
     series: "Attack",
     family: "Axforce",
-    image:
-      "https://in.lining.studio/cdn/shop/files/1_379e72d6ad_7d5cd489-e18b-48c5-966b-d7c29b941212.jpg?v=1749897618&width=800",
+    image: "/images/reviews/100gen2.webp",
     sourceUrl:
       "https://in.lining.studio/collections/badminton-rackets?sort_by=created-descending&filter.v.price.gte=&filter.v.price.lte=",
     thaiPrice: "รออัปเดตราคาไทย",
@@ -172,18 +172,21 @@ const seriesCopy: Record<LiningRacquet["series"], string> = {
   Control: "ตระกูล Halbertec สำหรับสายคุม เน้นความนิ่ง ความแม่น และการครองจังหวะเกม",
 };
 
-const seriesMeta: Record<LiningRacquet["series"], { label: string; title: string }> = {
+const seriesMeta: Record<LiningRacquet["series"], { label: string; logo: string; logoAlt: string }> = {
   Attack: {
     label: "ATTACK / ไม้สายบุก",
-    title: "Axforce",
+    logo: "/images/brands/axforce.jpg",
+    logoAlt: "Li-Ning Axforce series",
   },
   Speed: {
     label: "SPEED / ไม้สายความเร็ว",
-    title: "BladeX",
+    logo: "/images/brands/bladex.jpg",
+    logoAlt: "Li-Ning BladeX series",
   },
   Control: {
     label: "CONTROL / ไม้สายคุม",
-    title: "Halbertec",
+    logo: "/images/brands/halbertec.jpg",
+    logoAlt: "Li-Ning Halbertec series",
   },
 };
 
@@ -206,7 +209,7 @@ export default function LiNingRacquetsPage() {
                 <span>ไม้แบดมินตัน Yonex</span>
               </a>
               <a className="brand-menu-card" href="/racquets/li-ning">
-                <strong className="brand-menu-wordmark">LI-NING</strong>
+                <img src={liNingLogo} alt="Li-Ning" />
                 <span>ไม้แบดมินตัน Li-Ning</span>
               </a>
             </div>
@@ -229,7 +232,7 @@ export default function LiNingRacquetsPage() {
             <img src="/images/reviews/liningfounder.avif" alt="Li Ning ผู้ก่อตั้งแบรนด์ Li-Ning" />
           </div>
           <div className="brand-history-copy">
-            <strong className="brand-history-wordmark">LI-NING</strong>
+            <img src={liNingLogo} alt="Li-Ning" />
             <p>
               ก่อตั้งแบรนด์ในปี 1990 แต่เริ่มเข้ามาสร้างจุดเปลี่ยนสำคัญในวงการแบดมินตันอย่างแท้จริงในปี 2009
               ด้วยการทุ่มทุนก้าวขึ้นมาเป็นผู้สนับสนุนหลักอย่างเป็นทางการให้กับทีมชาติจีน ในยุคโอลิมปิกที่จัดขึ้นที่ปักกิ่ง
@@ -251,8 +254,8 @@ export default function LiNingRacquetsPage() {
             <div className="racquet-series" key={series}>
               <div className="racquet-series-heading">
                 <span>{seriesMeta[series].label}</span>
-                <div className="series-logo-frame series-wordmark">
-                  <span>{seriesMeta[series].title}</span>
+                <div className="series-logo-frame lining-series-logo-frame">
+                  <img src={seriesMeta[series].logo} alt={seriesMeta[series].logoAlt} />
                 </div>
                 <p>{seriesCopy[series]}</p>
               </div>
