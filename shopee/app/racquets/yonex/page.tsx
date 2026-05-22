@@ -21,7 +21,7 @@ const yonexRacquets: YonexRacquet[] = [
       "https://www.yonex.com/media/catalog/product/a/l/all_ax100zva_452-1.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/astrox-100va-zz",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/6feKMVfmYS",
   },
   {
     name: "ASTROX 100ZZ",
@@ -30,7 +30,7 @@ const yonexRacquets: YonexRacquet[] = [
       "https://www.yonex.com/media/catalog/product/a/s/astrox100zz_kurenai.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=819&width=600&canvas=600:819",
     yonexUrl: "https://www.yonex.com/badminton/racquets/astrox/ax100zz",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/2g8BbAO9s4",
   },
   {
     name: "ASTROX 99 PRO",
@@ -39,7 +39,7 @@ const yonexRacquets: YonexRacquet[] = [
       "https://www.yonex.com/media/catalog/product/a/l/all_3ax99-p_530-1.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/50W6NSoCKg",
   },
   {
     name: "ASTROX 88 D PRO",
@@ -48,7 +48,7 @@ const yonexRacquets: YonexRacquet[] = [
       "https://www.yonex.com/media/catalog/product/3/a/3ax88d-p_076-1_02.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/3ax88d-p",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/4LGPaFQYJ3",
   },
   {
     name: "ASTROX 88 S PRO",
@@ -57,7 +57,7 @@ const yonexRacquets: YonexRacquet[] = [
       "https://www.yonex.com/media/catalog/product/3/a/3ax88s-p_417-1_02.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/3ax88s-p",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/qgXPpCapi",
   },
   {
     name: "ASTROX 77 PRO",
@@ -66,7 +66,7 @@ const yonexRacquets: YonexRacquet[] = [
       "https://www.yonex.com/media/catalog/product/a/x/ax77-p_.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/astrox-77-pro",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/AAECWzCBtL",
   },
   {
     name: "NANOFLARE 1000 Z",
@@ -75,7 +75,7 @@ const yonexRacquets: YonexRacquet[] = [
       "https://www.yonex.com/media/catalog/product/n/a/nanoflare_1000_z.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/nf-1000z",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/4LGPaH7Wj2",
   },
   {
     name: "NANOFLARE 800 PRO",
@@ -84,7 +84,7 @@ const yonexRacquets: YonexRacquet[] = [
       "https://www.yonex.com/media/catalog/product/a/l/all_nf-800p_269-1.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/nf-800pr",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/qgXPqunyK",
   },
   {
     name: "NANOFLARE 700 PRO",
@@ -93,7 +93,7 @@ const yonexRacquets: YonexRacquet[] = [
       "https://www.yonex.com/media/catalog/product/a/l/all_nf-700p_339-1_2.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/nanoflare-700-pro",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/3B4SC9GaCQ",
   },
   {
     name: "ARCSABER 11 PRO",
@@ -102,7 +102,7 @@ const yonexRacquets: YonexRacquet[] = [
       "https://www.yonex.com/media/catalog/product/a/r/arc11-p.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/arc11-p",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/1Lco0mwD5U",
   },
   {
     name: "ARCSABER 7 PRO",
@@ -231,7 +231,13 @@ export default function YonexRacquetsPage() {
                         </div>
                       </dl>
                       <div className="racquet-actions">
-                        <a className="shopee-cta pending" href={racquet.shopeeUrl} aria-disabled="true">
+                        <a
+                          className={`shopee-cta ${racquet.shopeeUrl === "#" ? "pending" : ""}`}
+                          href={racquet.shopeeUrl}
+                          aria-disabled={racquet.shopeeUrl === "#" ? "true" : undefined}
+                          target={racquet.shopeeUrl === "#" ? undefined : "_blank"}
+                          rel={racquet.shopeeUrl === "#" ? undefined : "noreferrer"}
+                        >
                           ซื้อใน Shopee
                         </a>
                         <a className="source-link" href={racquet.yonexUrl} target="_blank" rel="noreferrer">
