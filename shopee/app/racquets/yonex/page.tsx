@@ -78,11 +78,11 @@ const yonexRacquets: YonexRacquet[] = [
   },
   {
     name: "NANOFLARE 800 PRO",
-    series: "7110 บาท",
+    series: "Speed",
     image:
       "https://www.yonex.com/media/catalog/product/a/l/all_nf-800p_269-1.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/nf-800pr",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "7110 บาท",
     shopeeUrl: "#",
   },
   {
