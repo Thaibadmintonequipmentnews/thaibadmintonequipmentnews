@@ -21,7 +21,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/1_379e72d6ad_7d5cd489-e18b-48c5-966b-d7c29b941212.jpg?v=1749897618&width=800",
     sourceUrl: "https://in.lining.studio/products/axforce-100-4u",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/809hy5gSWK",
   },
   {
     name: "Axforce 100 II",
@@ -41,7 +41,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/MAIN_AX_FORCE_90_137201fc57_d975f9c3-ae95-40f0-ab3b-4dfccfe7e5cd.jpg?v=1749900212&width=800",
     sourceUrl: "https://in.lining.studio/products/axforce-90-4u",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/3B4SDDcJqU",
   },
   {
     name: "Axforce 80",
@@ -71,7 +71,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/1_d213922d68.jpg?v=1749899726&width=650",
     sourceUrl: "https://in.lining.studio/products/bladex-900-4u",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/7VDRNC0eob",
   },
   {
     name: "BladeX 800 Speed",
@@ -101,7 +101,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/01_5910827ac0_5c6b82ab-f375-40b6-a0f2-d1a9d2d78e13.jpg?v=1749897512&width=650",
     sourceUrl: "https://in.lining.studio/products/bladex-900-sun-max-set-4u/",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/50W6Obj1q1",
   },
   {
     name: "BladeX 900 Max Moon",
@@ -111,7 +111,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/01_0dbe3f4639_93d0210f-8637-4e34-a11c-5f3b35d15732.jpg?v=1749897669&width=650",
     sourceUrl: "https://in.lining.studio/products/bladex-900-moon-max-set-4u",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/809hy8AJNy",
   },
   {
     name: "Halbertec 9000 Power",
@@ -141,7 +141,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/01_9b43c7875d_fd32f730-a7ce-40e1-9ae1-a9344a9df507.jpg?v=1749896645&width=650",
     sourceUrl: "https://in.lining.studio/products/halbertec-8000-4u",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/20sUp7BzK6",
   },
   {
     name: "Halbertec 7000",
