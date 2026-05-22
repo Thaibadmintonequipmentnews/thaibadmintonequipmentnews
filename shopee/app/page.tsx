@@ -2,6 +2,7 @@ import { peeratchaiImage } from "./athletes/peeratchai-thailand-open-2026-smash/
 
 const yonexLogo =
   "https://www.yonex.com/static/version1778512191/frontend/Yonex/base/en_US/images/Yonex_Logo.svg";
+const liNingLogo = "/images/reviews/Li-Ning_logo_red.svg";
 
 const articles = [
   {
@@ -86,7 +87,7 @@ export default function Home() {
                 <span>ไม้แบดมินตัน Yonex</span>
               </a>
               <a className="brand-menu-card" href="/racquets/li-ning">
-                <strong className="brand-menu-wordmark">LI-NING</strong>
+                <img src={liNingLogo} alt="Li-Ning" />
                 <span>ไม้แบดมินตัน Li-Ning</span>
               </a>
             </div>
