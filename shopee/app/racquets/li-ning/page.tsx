@@ -31,7 +31,7 @@ const liNingRacquets: LiningRacquet[] = [
     sourceUrl:
       "https://in.lining.studio/collections/badminton-rackets?sort_by=created-descending&filter.v.price.gte=&filter.v.price.lte=",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/7AaaxX9U4i",
   },
   {
     name: "Axforce 90 New",
@@ -51,7 +51,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/1_d982642d45_ab383919-a132-4674-b808-d95e6692e2fb.jpg?v=1749895182&width=800",
     sourceUrl: "https://in.lining.studio/products/axforce-80-4u-84-grams",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/2qRbnZyhIx",
   },
   {
     name: "Axforce 80 Light",
@@ -61,7 +61,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/Template-01_7a58dce9-b37f-4bf3-877a-4f2420034689.jpg?v=1753186371&width=800",
     sourceUrl: "https://in.lining.studio/products/axforce-80-5u-80-grams",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/20sUo3avig",
   },
   {
     name: "BladeX 900 New",
@@ -81,7 +81,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/1_a0e0bdb2-906e-4256-a721-fdcbf7dbc3f7.jpg?v=1771327763&width=800",
     sourceUrl: "https://in.lining.studio/products/bladex-800-speed-5u",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/70HAlFr5pj",
   },
   {
     name: "BladeX 800 Power",
@@ -91,7 +91,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/1_01f46489-e2e2-4b95-beec-12c7e5965bac.jpg?v=1771327688&width=800",
     sourceUrl: "https://in.lining.studio/products/bladex-800-power-5u",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/4qCgBHVvXV",
   },
   {
     name: "BladeX 900 Max Sun",
@@ -121,7 +121,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/1_b727aad8-cdb5-4644-b39c-b9a4d11d0e68.jpg?v=1770023521&width=800",
     sourceUrl: "https://in.lining.studio/products/halbertec-9000-power-3u",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/2LVLChDTOw",
   },
   {
     name: "Halbertec 9000",
@@ -131,7 +131,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/Template_01_bb2b214ca4_23c26810-4911-447a-bee5-755fae29e1f7.jpg?v=1749898946&width=650",
     sourceUrl: "https://in.lining.studio/products/halbertec-9000-4u/",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/7pqHkoRjV9",
   },
   {
     name: "Halbertec 8000",
@@ -151,7 +151,7 @@ const liNingRacquets: LiningRacquet[] = [
       "https://in.lining.studio/cdn/shop/files/1_bb93bbb7a5_2b5ac5fb-0427-44e9-9589-7a41c433b9e8.jpg?v=1749898904&width=800",
     sourceUrl: "https://in.lining.studio/products/halbertec-7000-4u-g6",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/2g8BbKLhRm",
   },
   {
     name: "Halbertec 6000",
@@ -160,7 +160,7 @@ const liNingRacquets: LiningRacquet[] = [
     image: "https://in.lining.studio/cdn/shop/files/1_f823c0615f.jpg?v=1749899314&width=650",
     sourceUrl: "https://in.lining.studio/products/halbertec-6000-4u/",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/BQqck3B4A",
   },
 ];
 
@@ -279,7 +279,13 @@ export default function LiNingRacquetsPage() {
                         </div>
                       </dl>
                       <div className="racquet-actions">
-                        <a className="shopee-cta pending" href={racquet.shopeeUrl} aria-disabled="true">
+                        <a
+                          className={`shopee-cta ${racquet.shopeeUrl === "#" ? "pending" : ""}`}
+                          href={racquet.shopeeUrl}
+                          aria-disabled={racquet.shopeeUrl === "#" ? "true" : undefined}
+                          target={racquet.shopeeUrl === "#" ? undefined : "_blank"}
+                          rel={racquet.shopeeUrl === "#" ? undefined : "noreferrer"}
+                        >
                           ซื้อใน Shopee
                         </a>
                         <a className="source-link" href={racquet.sourceUrl} target="_blank" rel="noreferrer">
