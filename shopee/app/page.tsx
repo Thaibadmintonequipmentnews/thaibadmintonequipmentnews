@@ -79,7 +79,6 @@ export default function Home() {
           <a href="#articles">บทความ</a>
           <a href="#youtube">YouTube</a>
           <a href="#facebook">Facebook</a>
-          <a href="#disclosure">หมายเหตุ</a>
         </nav>
       </header>
 
@@ -170,14 +169,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="review-panel">
-          <span>Review workflow</span>
-          <h3>บทความ + คลิป + ลิงก์ Shopee</h3>
-          <p>
-            สูตรหน้ารีวิวที่ควรใช้: สรุปเหมาะกับใคร, จุดเด่น, ข้อควรรู้,
-            คลิปจาก YouTube, ตารางสเปก, แล้วปิดด้วยปุ่มดูราคาที่ Shopee
-          </p>
-        </div>
         <div className="video-rail" aria-label="วิดีโอล่าสุดจากช่อง plearn">
           {youtubeVideos.map((video) => (
             <a
@@ -230,15 +221,6 @@ export default function Home() {
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           />
         </div>
-      </section>
-
-      <section id="disclosure" className="disclosure">
-        <p className="eyebrow">Disclosure</p>
-        <h2>หมายเหตุเรื่องลิงก์ Shopee</h2>
-        <p>
-          บางลิงก์ในเว็บไซต์นี้อาจเป็นลิงก์แนะนำสินค้า หากผู้อ่านกดซื้อสินค้า
-          เจ้าของเว็บไซต์อาจได้รับค่าคอมมิชชัน โดยไม่มีค่าใช้จ่ายเพิ่มเติมกับผู้อ่าน
-        </p>
       </section>
 
       <footer>
