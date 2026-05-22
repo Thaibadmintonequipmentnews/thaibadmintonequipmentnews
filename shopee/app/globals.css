@@ -1413,8 +1413,8 @@ footer span:first-child {
 }
 
 .series-logo-frame {
-  width: min(520px, 100%);
-  height: clamp(86px, 9vw, 128px);
+  width: min(460px, 100%);
+  min-height: 78px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -1424,12 +1424,11 @@ footer span:first-child {
 .series-logo-frame img {
   display: block;
   width: 100%;
-  max-height: 220px;
+  height: auto;
+  max-height: 132px;
   object-fit: contain;
   object-position: left center;
   filter: brightness(0);
-  transform: scale(1.35);
-  transform-origin: left center;
 }
 
 .racquet-series-heading p {
