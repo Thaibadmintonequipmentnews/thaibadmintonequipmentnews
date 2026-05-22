@@ -19,7 +19,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/l/all_ax100zva_452-1.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/astrox-100va-zz",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "8090 บาท",
     shopeeUrl: "#",
   },
   {
@@ -28,7 +28,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/s/astrox100zz_kurenai.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=819&width=600&canvas=600:819",
     yonexUrl: "https://www.yonex.com/badminton/racquets/astrox/ax100zz",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "7510 บาท",
     shopeeUrl: "#",
   },
   {
@@ -37,7 +37,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/l/all_3ax99-p_530-1.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "7390 บาท",
     shopeeUrl: "#",
   },
   {
@@ -46,7 +46,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/3/a/3ax88d-p_076-1_02.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/3ax88d-p",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "7110 บาท",
     shopeeUrl: "#",
   },
   {
@@ -55,7 +55,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/3/a/3ax88s-p_417-1_02.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/3ax88s-p",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "7110 บาท",
     shopeeUrl: "#",
   },
   {
@@ -64,7 +64,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/x/ax77-p_.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/astrox-77-pro",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "6150 บาท",
     shopeeUrl: "#",
   },
   {
@@ -73,12 +73,12 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/n/a/nanoflare_1000_z.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/nf-1000z",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "7510 บาท",
     shopeeUrl: "#",
   },
   {
     name: "NANOFLARE 800 PRO",
-    series: "Speed",
+    series: "7110 บาท",
     image:
       "https://www.yonex.com/media/catalog/product/a/l/all_nf-800p_269-1.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/nf-800pr",
@@ -91,7 +91,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/l/all_nf-700p_339-1_2.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/nanoflare-700-pro",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "6950 บาท",
     shopeeUrl: "#",
   },
   {
@@ -100,12 +100,12 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/r/arc11-p.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/arc11-p",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "6950 บาท",
     shopeeUrl: "#",
   },
   {
     name: "ARCSABER 7 PRO",
-    series: "All-Round",
+    series: "6150 บาท",
     image:
       "https://www.yonex.com/media/catalog/product/a/r/arc7-p.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/arc7-p",
@@ -118,7 +118,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/d/u/duo-zs.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/duo-zs",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "ยกเลิกการจำหน่าย",
     shopeeUrl: "#",
   },
 ];
@@ -134,7 +134,7 @@ const seriesCopy: Record<YonexRacquet["series"], string> = {
 const seriesMeta: Record<YonexRacquet["series"], { label: string; logo: string; logoAlt: string }> = {
   Attack: {
     label: "ATTACK / ไม้สายบุก",
-    logo: "/images/brands/1.png",
+    logo: "/images/brands/2.png",
     logoAlt: "Yonex Attack series",
   },
   Speed: {
@@ -144,7 +144,7 @@ const seriesMeta: Record<YonexRacquet["series"], { label: string; logo: string; 
   },
   "All-Round": {
     label: "ALL-ROUND / ไม้ออราวด์",
-    logo: "/images/brands/2.png",
+    logo: "/images/brands/1.png",
     logoAlt: "Yonex All-Round series",
   },
 };
