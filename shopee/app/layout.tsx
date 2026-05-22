@@ -4,13 +4,13 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Thai Badminton Equipment News | ข่าวและรีวิวอุปกรณ์แบดมินตัน",
   description:
-    "อัปเดตข่าวอุปกรณ์แบดมินตัน รีวิวไม้แบด รองเท้า ลูกแบด เอ็น และกริป ผ่านบทความ วิดีโอ YouTube และลิงก์ Shopee",
+    "อัปเดตข่าวอุปกรณ์แบดมินตัน รีวิวไม้แบด รองเท้า ลูกแบด เอ็น และกริป ผ่านบทความและวิดีโอสำหรับคนไทย",
   keywords: [
     "ไม้แบด",
     "อุปกรณ์แบดมินตัน",
     "รองเท้าแบดมินตัน",
     "ลูกแบด",
-    "Shopee",
+    "Thai Badminton Equipment News",
   ],
   openGraph: {
     title: "Thai Badminton Equipment News",
