@@ -255,7 +255,11 @@ export default function LiNingRacquetsPage() {
               <div className="racquet-series-heading">
                 <span>{seriesMeta[series].label}</span>
                 <div className="series-logo-frame lining-series-logo-frame">
-                  <img src={seriesMeta[series].logo} alt={seriesMeta[series].logoAlt} />
+                  <img
+                    src={seriesMeta[series].logo}
+                    alt={seriesMeta[series].logoAlt}
+                    style={{ filter: "brightness(0)" }}
+                  />
                 </div>
                 <p>{seriesCopy[series]}</p>
               </div>
