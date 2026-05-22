@@ -1450,6 +1450,16 @@ footer span:first-child {
   filter: brightness(0);
 }
 
+.lining-series-logo-frame {
+  width: min(520px, 100%);
+  min-height: 118px;
+}
+
+.lining-series-logo-frame img {
+  max-height: 156px;
+  filter: none;
+}
+
 .series-wordmark {
   min-height: auto;
   overflow: visible;
