@@ -131,6 +131,24 @@ const seriesCopy: Record<YonexRacquet["series"], string> = {
   "All-Round": "ตระกูลบาลานซ์ เน้นคุมลูกและเล่นได้หลายสถานการณ์",
 };
 
+const seriesMeta: Record<YonexRacquet["series"], { label: string; logo: string; logoAlt: string }> = {
+  Attack: {
+    label: "ATTACK / ไม้สายบุก",
+    logo: "/images/brands/1.png",
+    logoAlt: "Yonex Attack series",
+  },
+  Speed: {
+    label: "SPEED / ไม้สายความเร็ว",
+    logo: "/images/brands/3.png",
+    logoAlt: "Yonex Speed series",
+  },
+  "All-Round": {
+    label: "ALL-ROUND / ไม้ออราวด์",
+    logo: "/images/brands/2.png",
+    logoAlt: "Yonex All-Round series",
+  },
+};
+
 export default function YonexRacquetsPage() {
   return (
     <main>
@@ -186,8 +204,10 @@ export default function YonexRacquetsPage() {
           return (
             <div className="racquet-series" key={series}>
               <div className="racquet-series-heading">
-                <span>{series}</span>
-                <h2>{series === "All-Round" ? "All-Round" : series}</h2>
+                <span>{seriesMeta[series].label}</span>
+                <div className="series-logo-frame">
+                  <img src={seriesMeta[series].logo} alt={seriesMeta[series].logoAlt} />
+                </div>
                 <p>{seriesCopy[series]}</p>
               </div>
               <div className="racquet-grid">
