@@ -1344,7 +1344,7 @@ footer span:first-child {
 
 .racquet-brand-mark {
   display: grid;
-  grid-template-columns: minmax(120px, 0.45fr) minmax(0, 1fr);
+  grid-template-columns: 150px minmax(0, 1fr);
   gap: 20px;
   justify-items: start;
   align-items: center;
@@ -1381,10 +1381,10 @@ footer span:first-child {
   object-position: left center;
 }
 
-.brand-history-copy p {
+.racquet-brand-hero .brand-history-copy p {
   margin: 0;
-  color: #2e2e2e;
-  font-size: clamp(14px, 1.2vw, 16px);
+  color: #1b1b1b;
+  font-size: clamp(15px, 1.25vw, 17px);
   line-height: 1.65;
 }
 
