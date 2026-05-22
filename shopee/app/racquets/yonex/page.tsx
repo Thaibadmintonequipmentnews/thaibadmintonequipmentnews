@@ -105,11 +105,11 @@ const yonexRacquets: YonexRacquet[] = [
   },
   {
     name: "ARCSABER 7 PRO",
-    series: "6150 บาท",
+    series: "All-Round",
     image:
       "https://www.yonex.com/media/catalog/product/a/r/arc7-p.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/arc7-p",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "6150 บาท",
     shopeeUrl: "#",
   },
   {
