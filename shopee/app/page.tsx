@@ -1,5 +1,8 @@
 import { peeratchaiImage } from "./athletes/peeratchai-thailand-open-2026-smash/peeratchaiImage";
 
+const yonexLogo =
+  "https://www.yonex.com/static/version1778512191/frontend/Yonex/base/en_US/images/Yonex_Logo.svg";
+
 const articles = [
   {
     title: "Mizuno Acrospeed 001 SEA Limited ต่างจาก Acrospeed 0 อย่างไร",
@@ -75,6 +78,15 @@ export default function Home() {
           <span>Thai Badminton Equipment News</span>
         </a>
         <nav aria-label="เมนูหลัก">
+          <div className="nav-dropdown">
+            <a href="/racquets/yonex">ไม้แบดมินตัน</a>
+            <div className="brand-menu">
+              <a className="brand-menu-card" href="/racquets/yonex">
+                <img src={yonexLogo} alt="Yonex" />
+                <span>ไม้แบดมินตัน Yonex</span>
+              </a>
+            </div>
+          </div>
           <a href="#top">Headline</a>
           <a href="#articles">บทความ</a>
           <a href="#youtube">YouTube</a>
