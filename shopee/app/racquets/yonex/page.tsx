@@ -111,7 +111,7 @@ const yonexRacquets: YonexRacquet[] = [
       "https://www.yonex.com/media/catalog/product/a/r/arc7-p.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/arc7-p",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/70HAmESadp",
   },
   {
     name: "DUORA Z-STRIKE",
@@ -120,7 +120,7 @@ const yonexRacquets: YonexRacquet[] = [
       "https://www.yonex.com/media/catalog/product/d/u/duo-zs.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/duo-zs",
     thaiPrice: "รออัปเดตราคาไทย",
-    shopeeUrl: "#",
+    shopeeUrl: "https://s.shopee.co.th/7Ku1Ar5XMq",
   },
 ];
 
