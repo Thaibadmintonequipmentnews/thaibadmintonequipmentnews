@@ -20,7 +20,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/l/all_ax100zva_452-1.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/astrox-100va-zz",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "฿11,990",
     shopeeUrl: "https://s.shopee.co.th/6feKMVfmYS",
   },
   {
@@ -29,7 +29,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/s/astrox100zz_kurenai.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=819&width=600&canvas=600:819",
     yonexUrl: "https://www.yonex.com/badminton/racquets/astrox/ax100zz",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "฿11,000",
     shopeeUrl: "https://s.shopee.co.th/2g8BbAO9s4",
   },
   {
@@ -38,7 +38,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/l/all_3ax99-p_530-1.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/astrox-99-pro-3ax99-p",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "฿8,290",
     shopeeUrl: "https://s.shopee.co.th/50W6NSoCKg",
   },
   {
@@ -47,7 +47,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/3/a/3ax88d-p_076-1_02.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/3ax88d-p",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "฿10,500",
     shopeeUrl: "https://s.shopee.co.th/4LGPaFQYJ3",
   },
   {
@@ -56,7 +56,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/3/a/3ax88s-p_417-1_02.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/3ax88s-p",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "฿9,630",
     shopeeUrl: "https://s.shopee.co.th/qgXPpCapi",
   },
   {
@@ -65,7 +65,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/x/ax77-p_.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/astrox-77-pro",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "฿8,400",
     shopeeUrl: "https://s.shopee.co.th/AAECWzCBtL",
   },
   {
@@ -74,7 +74,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/n/a/nanoflare_1000_z.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/nf-1000z",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "฿10,150",
     shopeeUrl: "https://s.shopee.co.th/4LGPaH7Wj2",
   },
   {
@@ -83,7 +83,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/l/all_nf-800p_269-1.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/nf-800pr",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "฿8,800",
     shopeeUrl: "https://s.shopee.co.th/qgXPqunyK",
   },
   {
@@ -92,7 +92,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/l/all_nf-700p_339-1_2.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/nanoflare-700-pro",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "฿8,790",
     shopeeUrl: "https://s.shopee.co.th/3B4SC9GaCQ",
   },
   {
@@ -101,7 +101,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/r/arc11-p.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/arc11-p",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "฿9,290",
     shopeeUrl: "https://s.shopee.co.th/1Lco0mwD5U",
   },
   {
@@ -110,7 +110,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/a/r/arc7-p.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/arc7-p",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "฿8,499 (มือสอง)",
     shopeeUrl: "https://s.shopee.co.th/70HAmESadp",
   },
   {
@@ -119,7 +119,7 @@ const yonexRacquets: YonexRacquet[] = [
     image:
       "https://www.yonex.com/media/catalog/product/d/u/duo-zs.png?quality=80&bg-color=248,248,248,0.75&fit=bounds&height=300&width=240&canvas=240:300",
     yonexUrl: "https://www.yonex.com/badminton/racquets/duo-zs",
-    thaiPrice: "รออัปเดตราคาไทย",
+    thaiPrice: "฿6,400 (มือสอง)",
     shopeeUrl: "https://s.shopee.co.th/7Ku1Ar5XMq",
   },
 ];
