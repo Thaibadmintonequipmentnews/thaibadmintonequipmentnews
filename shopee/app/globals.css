@@ -1185,6 +1185,38 @@ h3 {
   display: block;
 }
 
+.longform-block {
+  display: contents;
+}
+
+.official-product-figure {
+  margin: 0 0 34px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 14px 38px rgba(17, 22, 20, 0.08);
+}
+
+.official-product-figure img {
+  width: 100%;
+  aspect-ratio: 15 / 5;
+  object-fit: cover;
+  background: #f2f2f2;
+}
+
+.official-product-figure figcaption {
+  padding: 12px 16px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.official-product-figure a {
+  color: var(--court);
+  font-weight: 900;
+}
+
 .longform-shop-section {
   display: grid;
   grid-template-columns: minmax(0, 0.88fr) minmax(280px, 1fr);
