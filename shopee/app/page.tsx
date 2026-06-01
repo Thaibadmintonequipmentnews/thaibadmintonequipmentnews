@@ -1,4 +1,5 @@
 import { peeratchaiImage } from "./athletes/peeratchai-thailand-open-2026-smash/peeratchaiImage";
+import { mizunoGuideImage } from "./reviews/mizuno-made-in-japan-guide/mizunoGuideImage";
 
 const yonexLogo =
   "https://www.yonex.com/static/version1778512191/frontend/Yonex/base/en_US/images/Yonex_Logo.svg";
@@ -17,7 +18,7 @@ const articles = [
     title: "Mizuno Made in Japan ไม้แบดสำหรับคนที่เลือกจากความเข้าใจ",
     desc: "ทำความเข้าใจซีรีส์ ACROFORCE, ACROSPEED, ALTIUS, FORTIUS และ Torque Technology ในแบบคนเล่นแบด",
     href: "/reviews/mizuno-made-in-japan-guide",
-    image: "/images/reviews/mizuno-made-in-japan-guide.jpg",
+    image: mizunoGuideImage,
     label: "Equipment guide",
   },
   {
