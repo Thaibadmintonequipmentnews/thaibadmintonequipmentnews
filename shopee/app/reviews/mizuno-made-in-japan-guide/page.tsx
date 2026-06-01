@@ -261,6 +261,14 @@ FORTIUS ก็คือพลังที่หนักแน่นและจ
   },
 ];
 
+const shopeeLinks = [
+  ["Acroforce 100", "https://s.shopee.co.th/7fX6ZdD1ou"],
+  ["Acrospeed 0", "https://s.shopee.co.th/gNMEuMqHu"],
+  ["Acrospeed 1DRIVE", "https://s.shopee.co.th/5fm2C84vNw"],
+  ["Fortius 10 BDSS", "https://s.shopee.co.th/5q5SOSbIRe"],
+  ["Altius N-Feel", "https://s.shopee.co.th/AUrHx4ViRU"],
+];
+
 export default function MizunoMadeInJapanGuide() {
   return (
     <main>
@@ -317,6 +325,21 @@ export default function MizunoMadeInJapanGuide() {
               </p>
             );
           })}
+        </section>
+
+        <section className="longform-shop-section">
+          <div>
+            <p className="eyebrow">Shopee</p>
+            <h2>หาซื้อ Mizuno Made In Japan</h2>
+            <p>ใครที่สนใจจะหาซื้อ Mizuno Made In Japan หาซื้อได้ที่นี่ครับ</p>
+          </div>
+          <div className="longform-shop-grid">
+            {shopeeLinks.map(([name, href]) => (
+              <a className="shopee-cta" href={href} target="_blank" rel="noreferrer" key={name}>
+                {name}
+              </a>
+            ))}
+          </div>
         </section>
       </article>
     </main>
