@@ -1118,6 +1118,73 @@ h3 {
   margin: 14px auto 0;
 }
 
+.longform-article {
+  background: #fff;
+}
+
+.longform-hero {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1fr);
+  gap: clamp(24px, 5vw, 64px);
+  align-items: end;
+  padding: clamp(34px, 5vw, 70px) clamp(18px, 4vw, 56px);
+  color: #fff;
+  background: #0a0a0a;
+}
+
+.longform-hero img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.28);
+}
+
+.longform-hero h1 {
+  max-width: 760px;
+  margin-bottom: 0;
+  color: #fff;
+  font-size: clamp(44px, 6vw, 86px);
+  line-height: 0.98;
+  text-transform: uppercase;
+}
+
+.longform-body {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: clamp(44px, 7vw, 92px) clamp(18px, 4vw, 44px);
+}
+
+.longform-body h2 {
+  margin-top: clamp(42px, 7vw, 76px);
+  margin-bottom: 18px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+  font-size: clamp(30px, 4vw, 52px);
+  line-height: 1.12;
+}
+
+.longform-body p {
+  margin: 0 0 22px;
+  color: #333;
+  font-size: 20px;
+  line-height: 1.95;
+}
+
+.longform-body blockquote {
+  margin: 34px 0;
+  border-left: 6px solid var(--court);
+  padding: 22px 24px;
+  background: #f4f7f5;
+  color: #111;
+  font-size: clamp(22px, 3vw, 34px);
+  font-weight: 900;
+  line-height: 1.45;
+}
+
+.longform-body blockquote span {
+  display: block;
+}
+
 .news-article {
   background: #f7f9f7;
 }
@@ -1625,6 +1692,7 @@ footer span:first-child {
   .review-hero,
   .beginner-detail-hero,
   .racquet-brand-hero,
+  .longform-hero,
   .two-column {
     grid-template-columns: 1fr;
   }
@@ -1778,6 +1846,14 @@ footer span:first-child {
 
   .racquet-brand-mark {
     grid-template-columns: 1fr;
+  }
+
+  .longform-hero h1 {
+    font-size: 42px;
+  }
+
+  .longform-body p {
+    font-size: 18px;
   }
 
   .brand-history-media img {
