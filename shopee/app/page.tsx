@@ -14,6 +14,13 @@ const articles = [
     label: "Equipment news",
   },
   {
+    title: "Mizuno Made in Japan ไม้แบดสำหรับคนที่เลือกจากความเข้าใจ",
+    desc: "ทำความเข้าใจซีรีส์ ACROFORCE, ACROSPEED, ALTIUS, FORTIUS และ Torque Technology ในแบบคนเล่นแบด",
+    href: "/reviews/mizuno-made-in-japan-guide",
+    image: "/images/reviews/mizuno-made-in-japan-guide.jpg",
+    label: "Equipment guide",
+  },
+  {
     title: "\"พี\" พีรัชชัย สุขพันธ์ ตบหนักที่สุดในไทยที่ Thailand Open 2026",
     desc: "พีติดอันดับความเร็วลูกตบชายคู่ถึงสองอันดับ 456.3 km/h และ 449 km/h พร้อมประเด็นไม้สปีดที่ใช้เป็นก็ตบหนักได้",
     href: "/athletes/peeratchai-thailand-open-2026-smash",
