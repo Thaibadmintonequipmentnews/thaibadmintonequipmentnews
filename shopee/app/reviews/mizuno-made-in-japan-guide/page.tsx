@@ -261,6 +261,44 @@ FORTIUS ก็คือพลังที่หนักแน่นและจ
   },
 ];
 
+const officialImages = [
+  {
+    after: "ACROFORCE พลังยุคใหม่ที่ไม่ได้มาจากความหนักอย่างเดียว",
+    src: "https://jpn.mizuno.com/sites/default/files/2025-07/cs_ba_ACROFORCE100_250711_mv_pc_1400_443.jpg",
+    alt: "ACROFORCE 100 จาก Mizuno Japan",
+    caption: "ACROFORCE 100 ภาพจาก Mizuno Japan",
+    source: "https://jpn.mizuno.com/badminton/shop/products/ACROFORCE100?pid=dicsba_bdss_products",
+  },
+  {
+    after: "ACROSPEED ความเร็วที่ไม่ได้หมายถึงเบาอย่างเดียว",
+    src: "https://jpn.mizuno.com/sites/default/files/2024-02/cs_ba_bdss_acrospeed0_20240301_top_PC.jpg",
+    alt: "ACROSPEED 0 จาก Mizuno Japan",
+    caption: "ACROSPEED 0 ภาพจาก Mizuno Japan",
+    source: "https://jpn.mizuno.com/badminton/shop/products/acrospeed0/?pid=dicsba_racket",
+  },
+  {
+    after: "ALTIUS ความละเอียดของการอมลูกและดีดกลับ",
+    src: "https://jpn.mizuno.com/sites/default/files/2025-10/cs_ba_top_251010_altiusnfeel_1500_480_0.jpg",
+    alt: "ALTIUS N-FEEL จาก Mizuno Japan",
+    caption: "ALTIUS N-FEEL ภาพจาก Mizuno Japan",
+    source: "https://jpn.mizuno.com/badminton/shop/products/Nfeel?pid=dicsba_products",
+  },
+  {
+    after: "FORTIUS เป็นซีรีส์ที่ชัดเจนในเรื่องพลัง",
+    src: "https://jpn.mizuno.com/sites/default/files/2024-12/cs_ba_FT10_241225_mv_pc.jpg",
+    alt: "FORTIUS 10 จาก Mizuno Japan",
+    caption: "FORTIUS 10 ภาพจาก Mizuno Japan",
+    source: "https://jpn.mizuno.com/badminton/shop/products/FT10?pid=dicsba_bdss_products",
+  },
+  {
+    after: "Torque Technology แรงบิดที่ทำให้ไม้ส่งแรงได้เป็นจังหวะ",
+    src: "https://jpn.mizuno.com/sites/default/files/2024-02/cs_ba_bdss_acroseed_20240301_enerzyframe.jpg",
+    alt: "ENERZY FRAME จาก Mizuno Japan",
+    caption: "ENERZY FRAME ภาพจาก Mizuno Japan",
+    source: "https://jpn.mizuno.com/badminton/shop/products/acrospeed0/?pid=dicsba_racket",
+  },
+];
+
 const shopeeLinks = [
   ["Acroforce 100", "https://s.shopee.co.th/7fX6ZdD1ou"],
   ["Acrospeed 0", "https://s.shopee.co.th/gNMEuMqHu"],
@@ -300,8 +338,25 @@ export default function MizunoMadeInJapanGuide() {
 
         <section className="longform-body">
           {contentBlocks.map((block, index) => {
+            const officialImage = officialImages.find((image) => image.after === block.text);
+
             if (block.type === "h2") {
-              return <h2 key={`${block.type}-${index}`}>{block.text}</h2>;
+              return (
+                <div className="longform-block" key={`${block.type}-${index}`}>
+                  <h2>{block.text}</h2>
+                  {officialImage ? (
+                    <figure className="official-product-figure">
+                      <img src={officialImage.src} alt={officialImage.alt} />
+                      <figcaption>
+                        {officialImage.caption}{" "}
+                        <a href={officialImage.source} target="_blank" rel="noreferrer">
+                          ดูที่มา
+                        </a>
+                      </figcaption>
+                    </figure>
+                  ) : null}
+                </div>
+              );
             }
 
             if (block.type === "quote") {
