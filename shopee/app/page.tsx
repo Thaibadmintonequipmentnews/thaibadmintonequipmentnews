@@ -1,4 +1,5 @@
 import { peeratchaiImage } from "./athletes/peeratchai-thailand-open-2026-smash/peeratchaiImage";
+import { kantaphonImage } from "./athletes/kantaphon-macau-open-final/kantaphonImage";
 import { mizunoGuideImage } from "./reviews/mizuno-made-in-japan-guide/mizunoGuideImage";
 
 const yonexLogo =
@@ -20,6 +21,13 @@ const articles = [
     href: "/reviews/mizuno-made-in-japan-guide",
     image: mizunoGuideImage,
     label: "Equipment guide",
+  },
+  {
+    title: "8 ปีที่รอคอย กันตภณ หวังเจริญ เข้าชิงมาเก๊า โอเพ่น",
+    desc: "อดีตมือ 1 ไทยกลับมาเข้าชิงอีกครั้ง หลังผ่านบททดสอบยาวนานทั้งอาการบาดเจ็บ ฟอร์มที่ไม่สม่ำเสมอ และแรงกดดันจากเส้นทางอาชีพ",
+    href: "/athletes/kantaphon-macau-open-final",
+    image: kantaphonImage,
+    label: "Athlete story",
   },
   {
     title: "\"พี\" พีรัชชัย สุขพันธ์ ตบหนักที่สุดในไทยที่ Thailand Open 2026",
